@@ -1,0 +1,23 @@
+export interface Faq { q: string; a: string }
+export const faqs: Faq[] = [
+  { q: "Which areas of Dubai do you cover?", a: "All 40+ communities — from Dubai Marina, Downtown and JBR to Arabian Ranches, Mirdif, Jebel Ali and everywhere in between." },
+  { q: "How fast can you pick up my junk?", a: "Same-day pickup is available across most Dubai areas when booked before noon, subject to slot availability." },
+  { q: "How do I book a pickup?", a: "The fastest way is WhatsApp — send a photo and your area. You can also Call Now or use the contact form." },
+  { q: "What items do you take?", a: "Furniture, mattresses, appliances, electronics, office equipment, construction debris, garden waste and general household clutter." },
+  { q: "What items can't you take?", a: "Hazardous chemicals, flammable liquids, asbestos, medical waste and certain regulated substances under UAE law." },
+  { q: "How is pricing calculated?", a: "Pricing is based on volume, item type, access (floor, lift availability) and labour required. We confirm the price upfront before any work starts — no surprises." },
+  { q: "Do you offer same-day junk removal?", a: "Yes — same-day slots are available across most Dubai communities." },
+  { q: "Are you licensed and insured?", a: "Yes. We operate as a licensed junk removal company in Dubai and carry full insurance for our crew and your property." },
+  { q: "Do you remove construction debris after renovations?", a: "Yes — tiles, wood, drywall, packaging and rubble are all handled." },
+  { q: "Can you clear an entire villa or apartment?", a: "Absolutely. Full villa, townhouse and apartment clearances are a core service." },
+  { q: "Do you handle office clearances?", a: "Yes — desks, chairs, cabinets, partitions and electronics, scheduled after-hours where needed." },
+  { q: "Where does the junk go?", a: "We sort everything. Reusable items are donated, recyclables routed to recycling partners, and the rest taken to licensed Dubai disposal facilities." },
+  { q: "Do you take e-waste like old TVs and computers?", a: "Yes — electronics are routed to certified e-waste recyclers." },
+  { q: "What about mattresses?", a: "Mattresses of any size are collected and disposed of responsibly." },
+  { q: "Do you handle appliances like fridges and washing machines?", a: "Yes — we have the equipment and crew for safe appliance removal." },
+  { q: "What are your working hours?", a: "Saturday to Thursday, 7:00 AM – 10:00 PM. Friday, 9:00 AM – 10:00 PM." },
+  { q: "Do I need to be home during pickup?", a: "Preferably yes, but with building or security clearance we can complete pickups when you can't be there." },
+  { q: "How do you protect my floors and walls?", a: "We use blankets, corner guards and trolleys, and our crew is trained on high-rise lift and stair protocols." },
+  { q: "Do you work in restricted-access communities?", a: "Yes — including Emirates Hills, Palm Jumeirah and Jumeirah Golf Estates. We coordinate with community security to bring the right vehicle and access pass." },
+  { q: "What payment methods do you accept?", a: "Cash, card and bank transfer. Payment is taken after the job is completed to your satisfaction." },
+];

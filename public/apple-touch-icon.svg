@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Fast Junk Service Dubai">
+  <rect width="180" height="180" rx="38" fill="#19324f"/>
+  <path d="M36 110h82V68H36v42Z" fill="#f4a62a"/>
+  <path d="M118 110h27l-10-23h-17v23Z" fill="#f4a62a"/>
+  <path d="M53 68h48l-7-17H60l-7 17Z" fill="#ffffff"/>
+  <path d="M64 83v19M79 83v19M94 83v19" stroke="#19324f" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="62" cy="122" r="12" fill="#ffffff"/>
+  <circle cx="128" cy="122" r="12" fill="#ffffff"/>
+  <path d="M42 122h14M74 122h43M140 122h8" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>
