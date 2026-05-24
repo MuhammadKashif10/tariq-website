@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Service } from "@/data/services";
 
@@ -6,8 +6,7 @@ export function ServiceCard({ service }: { service: Service }) {
   const Icon = service.icon;
   return (
     <Link
-      to="/services/$slug"
-      params={{ slug: service.slug }}
+      href={`/services/${service.slug}`}
       className="group flex flex-col rounded-2xl border border-border bg-card p-6 shadow-soft transition hover:-translate-y-1 hover:border-action hover:shadow-elevated"
     >
       <span className="grid h-12 w-12 place-items-center rounded-xl bg-secondary text-primary transition group-hover:bg-action group-hover:text-action-foreground">

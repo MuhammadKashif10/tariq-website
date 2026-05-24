@@ -1,60 +1,16 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { PageHero } from "@/components/site/PageHero";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { CalendarCheck, CheckCircle2, ClipboardCheck, HelpCircle, MessageSquare, Recycle, Truck, Wallet } from "lucide-react";
+import { AreaGrid } from "@/components/site/AreaGrid";
 import { Cta } from "@/components/site/Cta";
 import { CtaBanner } from "@/components/site/CtaBanner";
-import { AreaGrid } from "@/components/site/AreaGrid";
+import { PageHero } from "@/components/site/PageHero";
 import { ServiceCard } from "@/components/site/ServiceCard";
 import { getService, services, type Service } from "@/data/services";
 import { absoluteUrl, site } from "@/lib/site-config";
-import { CheckCircle2, MessageSquare, CalendarCheck, Truck, Recycle, Wallet, ClipboardCheck, HelpCircle } from "lucide-react";
 
-export const Route = createFileRoute("/services/$slug")({
-  loader: ({ params }): { service: Service } => {
-    const service = getService(params.slug);
-    if (!service) throw notFound();
-    return { service };
-  },
-  head: ({ loaderData }) => {
-    const s = loaderData?.service;
-    if (!s) return { meta: [{ title: "Service Not Found" }] };
-    const serviceFaqs = getServiceFaqs(s);
-    return {
-      meta: [
-        { title: s.metaTitle },
-        { name: "description", content: s.metaDescription },
-        { property: "og:title", content: s.metaTitle },
-        { property: "og:description", content: s.metaDescription },
-        { property: "og:url", content: absoluteUrl(`/services/${s.slug}`) },
-      ],
-      links: [{ rel: "canonical", href: absoluteUrl(`/services/${s.slug}`) }],
-      scripts: [
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            serviceType: s.name,
-            provider: { "@type": "LocalBusiness", name: site.name },
-            areaServed: { "@type": "City", name: "Dubai" },
-          }),
-        },
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: serviceFaqs.map((f) => ({
-              "@type": "Question",
-              name: f.q,
-              acceptedAnswer: { "@type": "Answer", text: f.a },
-            })),
-          }),
-        },
-      ],
-    };
-  },
-  component: ServiceDetail,
-});
+type Props = { params: Promise<{ slug: string }> };
 
 const steps = [
   { icon: MessageSquare, t: "Book via WhatsApp", d: "Send a photo and your area." },
@@ -98,25 +54,67 @@ function getServiceFaqs(service: Service) {
   ];
 }
 
-function ServiceDetail() {
-  const { service } = Route.useLoaderData() as { service: Service };
+export function generateStaticParams() {
+  return services.map((service) => ({ slug: service.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const service = getService(slug);
+  if (!service) return { title: "Service Not Found" };
+  return {
+    title: service.metaTitle,
+    description: service.metaDescription,
+    alternates: { canonical: absoluteUrl(`/services/${service.slug}`) },
+    openGraph: {
+      title: service.metaTitle,
+      description: service.metaDescription,
+      url: absoluteUrl(`/services/${service.slug}`),
+    },
+  };
+}
+
+export default async function ServiceDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const service = getService(slug);
+  if (!service) notFound();
+
   const Icon = service.icon;
   const related = services.filter((s) => s.slug !== service.slug).slice(0, 3);
   const serviceFaqs = getServiceFaqs(service);
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: service.name,
+    provider: { "@type": "LocalBusiness", name: site.name },
+    areaServed: { "@type": "City", name: "Dubai" },
+  };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: serviceFaqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       <nav className="container-prose pt-6 text-sm text-muted-foreground">
-        <Link to="/" className="hover:text-primary">Home</Link>
+        <Link href="/" className="hover:text-primary">Home</Link>
         <span className="mx-2">/</span>
-        <Link to="/services" className="hover:text-primary">Services</Link>
+        <Link href="/services" className="hover:text-primary">Services</Link>
         <span className="mx-2">/</span>
         <span className="text-foreground">{service.name}</span>
       </nav>
 
       <PageHero
-        eyebrow={service.shortName + " · Dubai"}
-        title={`${service.name} in Dubai — Fast, Clean Pickup Support`}
+        eyebrow={service.shortName + " - Dubai"}
+        title={`${service.name} in Dubai - Fast, Clean Pickup Support`}
         sub={service.intro}
       >
         <Cta variant="wa" size="lg" whatsappContext={`Service: ${service.name}`} />
@@ -133,7 +131,7 @@ function ServiceDetail() {
             <h2 className="mt-2 text-3xl font-bold md:text-4xl">What Is {service.name} in Dubai?</h2>
           </div>
           <div className="space-y-5 text-muted-foreground">
-            {service.longIntro.map((p, i) => <p key={i}>{p}</p>)}
+            {service.longIntro.map((p) => <p key={p}>{p}</p>)}
           </div>
         </div>
       </section>
@@ -251,7 +249,7 @@ function ServiceDetail() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Coverage</p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">{service.name} Across Every Dubai Community</h2>
           <p className="mt-4 text-muted-foreground">
-            Explore our <Link to="/areas" className="font-semibold text-primary hover:text-action">Dubai service areas</Link> to check pickup coverage for your community.
+            Explore our <Link href="/areas" className="font-semibold text-primary hover:text-action">Dubai service areas</Link> to check pickup coverage for your community.
           </p>
         </div>
         <div className="mt-10"><AreaGrid /></div>
@@ -286,9 +284,9 @@ function ServiceDetail() {
             {related.map((r) => <ServiceCard key={r.slug} service={r} />)}
           </div>
           <div className="mt-8 text-center">
-            <Link to="/services" className="text-sm font-semibold text-primary hover:text-action">View all services →</Link>
+            <Link href="/services" className="text-sm font-semibold text-primary hover:text-action">View all services →</Link>
             <span className="mx-3 text-muted-foreground">|</span>
-            <Link to="/areas" className="text-sm font-semibold text-primary hover:text-action">View Dubai service areas →</Link>
+            <Link href="/areas" className="text-sm font-semibold text-primary hover:text-action">View Dubai service areas →</Link>
           </div>
         </div>
       </section>

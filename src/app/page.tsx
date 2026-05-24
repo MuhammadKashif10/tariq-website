@@ -1,31 +1,27 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { PageHero } from "@/components/site/PageHero";
-import { TrustBar } from "@/components/site/TrustBar";
-import { ServiceCard } from "@/components/site/ServiceCard";
-import { HowItWorks } from "@/components/site/HowItWorks";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, Camera, CheckCircle2, Clock, Leaf, MapPinned, MessageCircle, ShieldCheck, Sofa, Truck, Users, Wallet, Zap } from "lucide-react";
 import { AreaGrid } from "@/components/site/AreaGrid";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { Cta } from "@/components/site/Cta";
+import { CtaBanner } from "@/components/site/CtaBanner";
+import { HowItWorks } from "@/components/site/HowItWorks";
+import { PageHero } from "@/components/site/PageHero";
+import { ServiceCard } from "@/components/site/ServiceCard";
+import { TrustBar } from "@/components/site/TrustBar";
 import { services } from "@/data/services";
 import { absoluteUrl } from "@/lib/site-config";
-import {
-  Zap, Wallet, ShieldCheck, Leaf, Users, MapPinned, ArrowRight,
-  MessageCircle, Camera, Clock, Truck, CheckCircle2, Sofa,
-} from "lucide-react";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Junk Removal Dubai | Same-Day Pickup & Clearance Service" },
-      { name: "description", content: "Licensed, insured junk removal in Dubai. Furniture, appliances, debris & full clearances — same-day pickup across all Dubai areas. WhatsApp us now." },
-      { property: "og:title", content: "Junk Removal Dubai | Same-Day Pickup & Clearance Service" },
-      { property: "og:description", content: "Licensed, insured junk removal in Dubai. Same-day pickup across all Dubai areas." },
-      { property: "og:url", content: absoluteUrl("/") },
-    ],
-    links: [{ rel: "canonical", href: absoluteUrl("/") }],
-  }),
-  component: Home,
-});
+export const metadata: Metadata = {
+  title: "Junk Removal Dubai | Same-Day Pickup & Clearance Service",
+  description:
+    "Junk removal in Dubai for furniture, appliances, debris and full clearances. Same-day pickup may be available across Dubai areas. WhatsApp us now.",
+  alternates: { canonical: absoluteUrl("/") },
+  openGraph: {
+    title: "Junk Removal Dubai | Same-Day Pickup & Clearance Service",
+    description: "Junk removal in Dubai. Same-day pickup may be available across Dubai areas.",
+    url: absoluteUrl("/"),
+  },
+};
 
 const whyUs = [
   { icon: Zap, t: "Same-Day Pickup", d: "Available when scheduling, truck capacity and building access allow." },
@@ -34,12 +30,6 @@ const whyUs = [
   { icon: Leaf, t: "Responsible Disposal", d: "Usable, recyclable and disposal items are sorted where suitable." },
   { icon: Users, t: "Respectful Crew", d: "A practical team focused on clear communication and careful handling." },
   { icon: MapPinned, t: "Dubai-Wide Coverage", d: "From Dubai Marina to Mirdif, Jebel Ali to Deira." },
-];
-
-const customerExperience = [
-  { title: "Clear WhatsApp Communication", text: "Send photos, pickup area and access details so the team can respond with the right next step." },
-  { title: "Careful Pickup Handling", text: "The crew plans for lifts, stairs, loading areas and bulky items before arriving at the property." },
-  { title: "Dubai Area Coordination", text: "Pickup timing can be planned around apartment towers, villa communities, offices and building rules." },
 ];
 
 const stats = [
@@ -73,13 +63,19 @@ const guarantees = [
   "Same-day support when scheduling and access allow",
 ];
 
-function Home() {
+const customerExperience = [
+  { title: "Clear WhatsApp Communication", text: "Send photos, pickup area and access details so the team can respond with the right next step." },
+  { title: "Careful Pickup Handling", text: "The crew plans for lifts, stairs, loading areas and bulky items before arriving at the property." },
+  { title: "Dubai Area Coordination", text: "Pickup timing can be planned around apartment towers, villa communities, offices and building rules." },
+];
+
+export default function Home() {
   return (
     <>
       <PageHero
-        eyebrow="Dubai · Same-Day Pickup"
-        title="Fast, Reliable Junk Removal in Dubai — Same-Day Pickup, Anywhere in the City"
-        sub="From a single sofa to a full villa clearance, our licensed and insured team hauls away furniture, appliances, debris and clutter — and disposes of it responsibly. Book in 60 seconds on WhatsApp."
+        eyebrow="Dubai - Same-Day Pickup"
+        title="Fast, Reliable Junk Removal in Dubai - Same-Day Pickup, Anywhere in the City"
+        sub="From a single sofa to a full villa clearance, our licensed and insured team hauls away furniture, appliances, debris and clutter - and disposes of it responsibly. Book in 60 seconds on WhatsApp."
       >
         <Cta variant="wa" size="lg" />
         <Cta variant="call" size="lg" />
@@ -95,7 +91,6 @@ function Home() {
 
       <TrustBar />
 
-      {/* Trust Proof */}
       <section className="container-prose py-20">
         <div className="grid items-start gap-10 lg:grid-cols-[1fr_2fr]">
           <div>
@@ -105,13 +100,13 @@ function Home() {
               Send photos on WhatsApp, confirm the pickup details, and get support for furniture, appliance, villa, office and general junk removal across Dubai.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link to="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 View services <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/areas" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/areas" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 Check areas <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/contact" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/contact" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 Request pickup <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -128,13 +123,12 @@ function Home() {
         </div>
       </section>
 
-      {/* Services Overview */}
       <section className="container-prose py-20">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">What We Do</p>
-          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Every Type of Junk Removal in Dubai — Handled in One Visit</h2>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Every Type of Junk Removal in Dubai - Handled in One Visit</h2>
           <p className="mt-4 text-muted-foreground">
-            Whether you're upgrading your apartment in Dubai Marina, clearing an office in DIFC, or finishing a villa renovation in Arabian Ranches, our crew arrives with the right truck, tools and team.
+            Whether you&apos;re upgrading your apartment in Dubai Marina, clearing an office in DIFC, or finishing a villa renovation in Arabian Ranches, our crew arrives with the right truck, tools and team.
           </p>
         </div>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -145,7 +139,6 @@ function Home() {
 
       <HowItWorks />
 
-      {/* Pricing Guidance */}
       <section className="bg-surface py-20">
         <div className="container-prose">
           <div className="grid gap-10 lg:grid-cols-[1.2fr_1fr]">
@@ -157,7 +150,7 @@ function Home() {
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <Cta variant="wa" size="lg" />
-                <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-background px-6 py-3.5 text-base font-semibold text-foreground shadow-soft hover:bg-muted">
+                <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-background px-6 py-3.5 text-base font-semibold text-foreground shadow-soft hover:bg-muted">
                   Schedule Online <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -172,15 +165,12 @@ function Home() {
                   </li>
                 ))}
               </ul>
-              <p className="mt-5 text-sm text-muted-foreground">
-                We avoid quoting blindly. Confirmed details help prevent surprise changes after arrival.
-              </p>
+              <p className="mt-5 text-sm text-muted-foreground">We avoid pricing blindly. Confirmed details help prevent surprise changes after arrival.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
       <section className="bg-surface py-20">
         <div className="container-prose">
           <div className="mx-auto max-w-2xl text-center">
@@ -199,7 +189,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Service Guarantee */}
       <section className="container-prose py-20">
         <div className="grid items-start gap-10 md:grid-cols-2">
           <div>
@@ -209,10 +198,10 @@ function Home() {
               Junk removal often involves lifts, parking, building security and heavy items. We confirm the important details first so pickup day is straightforward.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <Link to="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 Explore services <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/contact" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/contact" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 Contact for Pickup <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -228,24 +217,22 @@ function Home() {
         </div>
       </section>
 
-      {/* Service Areas Overview */}
       <section className="container-prose py-20">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Citywide Coverage</p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">Junk Removal Across Every Corner of Dubai</h2>
-          <p className="mt-4 text-muted-foreground">High-rise apartments, waterfront villas, business towers, family communities — pick your area.</p>
+          <p className="mt-4 text-muted-foreground">High-rise apartments, waterfront villas, business towers, family communities - pick your area.</p>
         </div>
         <div className="mt-10"><AreaGrid limit={16} /></div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <Link to="/areas" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+          <Link href="/areas" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
             View all 40 areas <ArrowRight className="h-4 w-4" />
           </Link>
-          <span className="text-muted-foreground">·</span>
+          <span className="text-muted-foreground">-</span>
           <Cta variant="schedule" />
         </div>
       </section>
 
-      {/* Customer Experience */}
       <section className="bg-surface py-20">
         <div className="container-prose">
           <div className="mx-auto max-w-2xl text-center">
@@ -267,7 +254,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Stats */}
       <section className="container-prose py-20">
         <div className="grid gap-6 rounded-3xl bg-gradient-brand p-10 text-primary-foreground md:grid-cols-4 md:p-14">
           {stats.map((s) => (

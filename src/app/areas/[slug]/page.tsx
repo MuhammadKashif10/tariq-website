@@ -1,36 +1,16 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { PageHero } from "@/components/site/PageHero";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { BriefcaseBusiness, Building2, CheckCircle2, ClipboardList, Home, MapPin } from "lucide-react";
 import { Cta } from "@/components/site/Cta";
 import { CtaBanner } from "@/components/site/CtaBanner";
+import { PageHero } from "@/components/site/PageHero";
 import { ServiceCard } from "@/components/site/ServiceCard";
-import { getArea, getNearbyAreas, type Area } from "@/data/areas";
+import { areas, getArea, getNearbyAreas, type Area } from "@/data/areas";
 import { services } from "@/data/services";
 import { absoluteUrl } from "@/lib/site-config";
-import { MapPin, CheckCircle2, Building2, Home, BriefcaseBusiness, ClipboardList } from "lucide-react";
 
-export const Route = createFileRoute("/areas/$slug")({
-  loader: ({ params }): { area: Area; nearby: Area[] } => {
-    const area = getArea(params.slug);
-    if (!area) throw notFound();
-    const nearby = getNearbyAreas(area.slug, 6);
-    return { area, nearby };
-  },
-  head: ({ loaderData }) => {
-    const a = loaderData?.area;
-    if (!a) return { meta: [{ title: "Area Not Found" }] };
-    return {
-      meta: [
-        { title: `Junk Removal ${a.name} Dubai | Same-Day Pickup & Clearance` },
-        { name: "description", content: `Junk removal in ${a.name}, Dubai — furniture, appliances, debris and full clearances. Licensed, insured, eco-friendly. Same-day pickups available.` },
-        { property: "og:title", content: `Junk Removal in ${a.name}, Dubai` },
-        { property: "og:description", content: `Same-day junk removal across ${a.name}.` },
-        { property: "og:url", content: absoluteUrl(`/areas/${a.slug}`) },
-      ],
-      links: [{ rel: "canonical", href: absoluteUrl(`/areas/${a.slug}`) }],
-    };
-  },
-  component: AreaDetail,
-});
+type Props = { params: Promise<{ slug: string }> };
 
 const reasons = [
   "Crews familiar with local buildings and access rules",
@@ -70,22 +50,46 @@ function getAreaProfile(area: Area) {
   return { commonNeeds, propertyNotes, accessNotes };
 }
 
-function AreaDetail() {
-  const { area, nearby } = Route.useLoaderData() as { area: Area; nearby: Area[] };
+export function generateStaticParams() {
+  return areas.map((area) => ({ slug: area.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const area = getArea(slug);
+  if (!area) return { title: "Area Not Found" };
+  return {
+    title: `Junk Removal ${area.name} Dubai | Same-Day Pickup & Clearance`,
+    description: `Junk removal in ${area.name}, Dubai - furniture, appliances, debris and full clearances. Same-day pickups may be available.`,
+    alternates: { canonical: absoluteUrl(`/areas/${area.slug}`) },
+    openGraph: {
+      title: `Junk Removal in ${area.name}, Dubai`,
+      description: `Same-day junk removal may be available across ${area.name}.`,
+      url: absoluteUrl(`/areas/${area.slug}`),
+    },
+  };
+}
+
+export default async function AreaDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const area = getArea(slug);
+  if (!area) notFound();
+  const nearby = getNearbyAreas(area.slug, 6);
   const profile = getAreaProfile(area);
+
   return (
     <>
       <nav className="container-prose pt-6 text-sm text-muted-foreground">
-        <Link to="/" className="hover:text-primary">Home</Link>
+        <Link href="/" className="hover:text-primary">Home</Link>
         <span className="mx-2">/</span>
-        <Link to="/areas" className="hover:text-primary">Areas</Link>
+        <Link href="/areas" className="hover:text-primary">Areas</Link>
         <span className="mx-2">/</span>
         <span className="text-foreground">{area.name}</span>
       </nav>
 
       <PageHero
-        eyebrow={`Dubai · ${area.name}`}
-        title={`Junk Removal in ${area.name}, Dubai — Same-Day Pickup From Your Building`}
+        eyebrow={`Dubai - ${area.name}`}
+        title={`Junk Removal in ${area.name}, Dubai - Same-Day Pickup From Your Building`}
         sub={`Whether it's a single sofa from a high-rise or a full apartment clearance, our ${area.name} crew is on call. Message us on WhatsApp with a photo and we'll be there.`}
       >
         <Cta variant="wa" size="lg" whatsappContext={`Area: ${area.name}`} />
@@ -111,7 +115,7 @@ function AreaDetail() {
               Junk removal in {area.name} can vary by property type, access rules and item volume. Send pickup details on WhatsApp so the team can check the right crew and timing.
             </p>
             <div className="mt-6">
-              <Link to="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
+              <Link href="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
                 View all junk removal services <MapPin className="h-4 w-4" />
               </Link>
             </div>
@@ -199,8 +203,7 @@ function AreaDetail() {
           </div>
           <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {nearby.map((n) => (
-              <Link key={n.slug} to="/areas/$slug" params={{ slug: n.slug }}
-                    className="group flex items-center gap-2 rounded-lg border border-border bg-card px-3.5 py-3 text-sm font-medium hover:border-action">
+              <Link key={n.slug} href={`/areas/${n.slug}`} className="group flex items-center gap-2 rounded-lg border border-border bg-card px-3.5 py-3 text-sm font-medium hover:border-action">
                 <MapPin className="h-3.5 w-3.5 text-action" />
                 <span className="truncate">{n.name}</span>
               </Link>

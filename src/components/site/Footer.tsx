@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { Phone, MessageCircle, Mail, MapPin, Clock, Truck } from "lucide-react";
 import { site, telHref, waHref } from "@/lib/site-config";
 import { services } from "@/data/services";
@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-border bg-primary text-primary-foreground">
       <div className="container-prose grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <Link to="/" className="flex items-center gap-2.5 font-display text-lg font-semibold">
+          <Link href="/" className="flex items-center gap-2.5 font-display text-lg font-semibold">
             <span className="grid h-9 w-9 place-items-center rounded-lg bg-action text-action-foreground">
               <Truck className="h-5 w-5" />
             </span>
@@ -34,12 +34,12 @@ export function Footer() {
         <div>
           <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">Quick Links</h4>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><Link to="/" className="hover:text-action">Home</Link></li>
-            <li><Link to="/about" className="hover:text-action">About</Link></li>
-            <li><Link to="/services" className="hover:text-action">Services</Link></li>
-            <li><Link to="/areas" className="hover:text-action">Service Areas</Link></li>
-            <li><Link to="/faq" className="hover:text-action">FAQ</Link></li>
-            <li><Link to="/contact" className="hover:text-action">Contact</Link></li>
+            <li><Link href="/" className="hover:text-action">Home</Link></li>
+            <li><Link href="/about" className="hover:text-action">About</Link></li>
+            <li><Link href="/services" className="hover:text-action">Services</Link></li>
+            <li><Link href="/areas" className="hover:text-action">Service Areas</Link></li>
+            <li><Link href="/faq" className="hover:text-action">FAQ</Link></li>
+            <li><Link href="/contact" className="hover:text-action">Contact</Link></li>
           </ul>
         </div>
 
@@ -48,7 +48,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             {topServices.map((s) => (
               <li key={s.slug}>
-                <Link to="/services/$slug" params={{ slug: s.slug }} className="hover:text-action">
+                <Link href={`/services/${s.slug}`} className="hover:text-action">
                   {s.name}
                 </Link>
               </li>
@@ -72,8 +72,8 @@ export function Footer() {
         <div className="container-prose flex flex-col items-center justify-between gap-3 py-5 text-xs text-primary-foreground/65 sm:flex-row">
           <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
           <div className="flex gap-5">
-            <Link to="/privacy-policy" className="hover:text-action">Privacy Policy</Link>
-            <Link to="/terms-conditions" className="hover:text-action">Terms & Conditions</Link>
+            <Link href="/privacy-policy" className="hover:text-action">Privacy Policy</Link>
+            <Link href="/terms-conditions" className="hover:text-action">Terms & Conditions</Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { MapPin } from "lucide-react";
 import { areas } from "@/data/areas";
 
@@ -9,8 +9,7 @@ export function AreaGrid({ limit }: { limit?: number }) {
       {list.map((a) => (
         <Link
           key={a.slug}
-          to="/areas/$slug"
-          params={{ slug: a.slug }}
+          href={`/areas/${a.slug}`}
           className="group flex items-center gap-2 rounded-lg border border-border bg-card px-3.5 py-3 text-sm font-medium text-foreground transition hover:border-action hover:bg-action/10"
         >
           <MapPin className="h-3.5 w-3.5 text-action" />

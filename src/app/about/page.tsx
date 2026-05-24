@@ -1,46 +1,43 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { PageHero } from "@/components/site/PageHero";
+import type { Metadata } from "next";
+import { CheckCircle2, Handshake, Heart, Leaf, User, Wallet } from "lucide-react";
 import { Cta } from "@/components/site/Cta";
 import { CtaBanner } from "@/components/site/CtaBanner";
+import { PageHero } from "@/components/site/PageHero";
 import { absoluteUrl, site } from "@/lib/site-config";
-import { Heart, Handshake, Leaf, Wallet, CheckCircle2, User } from "lucide-react";
 
-export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About Us | Dubai's Trusted Junk Removal Company" },
-      { name: "description", content: "Meet the licensed, insured Dubai junk removal team clearing homes, offices and villas across the city with same-day pickups and eco-friendly disposal." },
-      { property: "og:title", content: "About Us | Dubai's Trusted Junk Removal Company" },
-      { property: "og:description", content: "Licensed, insured, eco-friendly Dubai junk removal team." },
-      { property: "og:url", content: absoluteUrl("/about") },
-    ],
-    links: [{ rel: "canonical", href: absoluteUrl("/about") }],
-  }),
-  component: About,
-});
+export const metadata: Metadata = {
+  title: "About Us | Dubai's Trusted Junk Removal Company",
+  description:
+    "Meet the Dubai junk removal team clearing homes, offices and villas across the city with same-day pickups and responsible disposal support.",
+  alternates: { canonical: absoluteUrl("/about") },
+  openGraph: {
+    title: "About Us | Dubai Junk Removal Company",
+    description: "Dubai junk removal team for homes, offices and villas.",
+    url: absoluteUrl("/about"),
+  },
+};
 
 const values = [
   { icon: CheckCircle2, t: "Reliability", d: "Confirmed slots, on-time arrivals, no ghosting." },
   { icon: Heart, t: "Respect", d: "We protect your floors, walls and neighbours." },
-  { icon: Leaf, t: "Responsibility", d: "We donate, recycle and dispose through licensed Dubai facilities." },
+  { icon: Leaf, t: "Responsibility", d: "We donate, recycle and dispose through suitable Dubai channels." },
   { icon: Wallet, t: "Affordability", d: "Honest, upfront pricing with no hidden fees." },
 ];
 
 const diff = [
-  "Fully licensed and insured under UAE regulations",
-  "Same-day pickups available across all 40+ Dubai areas",
+  "Same-day pickups available across Dubai areas when scheduling allows",
   "Responsible disposal support with recycling and donation considered where suitable",
   "Respectful, practical crew for homes, offices and villas",
   "WhatsApp-first booking with direct team communication",
 ];
 
-function About() {
+export default function AboutPage() {
   return (
     <>
       <PageHero
         eyebrow="About"
         title={`The ${site.name} Team That Shows Up - On Time, Every Time`}
-        sub="We're a local, licensed crew built for one job: making your unwanted stuff disappear quickly, cleanly and responsibly."
+        sub="We're a local crew built for one job: making your unwanted stuff disappear quickly, cleanly and responsibly."
       >
         <Cta variant="wa" size="lg" />
         <Cta variant="call" size="lg" />
@@ -54,7 +51,7 @@ function About() {
           </div>
           <div className="space-y-5 text-muted-foreground">
             <p>We started after one too many residents told us the same story: an old sofa stuck on the balcony, a fridge nobody would haul, a villa half-cleared with no one to finish the job.</p>
-            <p>We built a service the city actually needed — fast bookings on WhatsApp, fair pricing, real insurance, and a team that treats your home like it's their own. Today we operate across every major community in Dubai, from Marina towers to Arabian Ranches villas.</p>
+            <p>We built a service the city actually needed - fast bookings on WhatsApp, fair pricing, and a team that treats your home like it&apos;s their own. Today we operate across major communities in Dubai, from Marina towers to Arabian Ranches villas.</p>
           </div>
         </div>
       </section>
@@ -80,7 +77,7 @@ function About() {
       <section className="container-prose py-20">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Why We're Different</p>
-          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Five Reasons Dubai Chooses Us</h2>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Reasons Dubai Chooses Us</h2>
         </div>
         <ul className="mx-auto mt-10 grid max-w-3xl gap-3">
           {diff.map((d) => (

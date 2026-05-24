@@ -1,5 +1,5 @@
 import { Phone, MessageCircle, ArrowRight } from "lucide-react";
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { telHref, whatsappHref } from "@/lib/site-config";
 
 type Variant = "wa" | "call" | "book" | "schedule" | "contact";
@@ -30,6 +30,6 @@ export function Cta({ variant, size = "md", className = "", whatsappContext }: P
   if (variant === "book")
     return <a href={waHref} target="_blank" rel="noopener noreferrer" className={cls}>Book Now <ArrowRight className="h-4 w-4" /></a>;
   if (variant === "schedule")
-    return <Link to="/contact" className={cls}>Schedule a Pickup <ArrowRight className="h-4 w-4" /></Link>;
-  return <Link to="/contact" className={cls}>Contact Us Today <ArrowRight className="h-4 w-4" /></Link>;
+    return <Link href="/contact" className={cls}>Schedule a Pickup <ArrowRight className="h-4 w-4" /></Link>;
+  return <Link href="/contact" className={cls}>Contact Us Today <ArrowRight className="h-4 w-4" /></Link>;
 }

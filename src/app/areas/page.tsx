@@ -1,24 +1,22 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { PageHero } from "@/components/site/PageHero";
+import type { Metadata } from "next";
+import { Clock, Recycle, Truck, Users } from "lucide-react";
 import { AreaGrid } from "@/components/site/AreaGrid";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { Cta } from "@/components/site/Cta";
+import { CtaBanner } from "@/components/site/CtaBanner";
+import { PageHero } from "@/components/site/PageHero";
 import { absoluteUrl } from "@/lib/site-config";
-import { Truck, Users, Clock, Recycle } from "lucide-react";
 
-export const Route = createFileRoute("/areas")({
-  head: () => ({
-    meta: [
-      { title: "Junk Removal Service Areas in Dubai | All 40+ Communities" },
-      { name: "description", content: "We provide junk removal across every Dubai area — Marina, Downtown, JBR, Palm, Arabian Ranches, Mirdif and more. Same-day pickups citywide." },
-      { property: "og:title", content: "Junk Removal Service Areas in Dubai" },
-      { property: "og:description", content: "All 40+ Dubai communities covered." },
-      { property: "og:url", content: absoluteUrl("/areas") },
-    ],
-    links: [{ rel: "canonical", href: absoluteUrl("/areas") }],
-  }),
-  component: Areas,
-});
+export const metadata: Metadata = {
+  title: "Junk Removal Service Areas in Dubai | All 40+ Communities",
+  description:
+    "We provide junk removal across Dubai areas - Marina, Downtown, JBR, Palm, Arabian Ranches, Mirdif and more. Same-day pickups may be available.",
+  alternates: { canonical: absoluteUrl("/areas") },
+  openGraph: {
+    title: "Junk Removal Service Areas in Dubai",
+    description: "All 40+ Dubai communities covered.",
+    url: absoluteUrl("/areas"),
+  },
+};
 
 const points = [
   { icon: Truck, t: "Fleet Across the City", d: "Vans and trucks stationed across Dubai." },
@@ -27,7 +25,7 @@ const points = [
   { icon: Recycle, t: "Licensed Disposal", d: "Partners across Dubai for eco-friendly handling." },
 ];
 
-function Areas() {
+export default function AreasPage() {
   return (
     <>
       <PageHero
@@ -64,7 +62,7 @@ function Areas() {
         </div>
       </section>
 
-      <CtaBanner heading="Can't See Your Area? Message Us — We Almost Certainly Cover It." />
+      <CtaBanner heading="Can't See Your Area? Message Us - We Almost Certainly Cover It." />
     </>
   );
 }
