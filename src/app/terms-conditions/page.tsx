@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const sections = [
   { h: "1. Acceptance", b: ["By booking our services or using this website, you agree to these Terms & Conditions."] },
-  { h: "2. Services", b: ["We provide junk removal, hauling and clearance services across Dubai, UAE, including but not limited to furniture, appliance, mattress, debris, office, e-waste and full property clearances."] },
+  { h: "2. Services", b: ["We provide junk removal, hauling and clearance services across Dubai, UAE, including but not limited to furniture, appliance, mattress, debris, e-waste and full property clearances."] },
   { h: "3. Bookings & Confirmation", b: ["Bookings can be made via WhatsApp, phone, contact form or website.", "A booking is confirmed once we send written confirmation (WhatsApp/email).", "You are responsible for the accuracy of the address, access details and item description provided."] },
   { h: "4. Pricing & Payment", b: ["Prices are confirmed in writing before work begins, based on volume, access and labour.", "Payment is due on completion via cash, card or bank transfer.", "Late or unpaid balances may incur additional charges."] },
   { h: "5. Cancellations & Rescheduling", b: ["Free cancellation or rescheduling up to 2 hours before the scheduled slot.", "Cancellations inside the 2-hour window may incur a service fee.", "No-shows may be charged the full visit fee."] },

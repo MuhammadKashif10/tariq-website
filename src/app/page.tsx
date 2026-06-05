@@ -12,22 +12,22 @@ import { services } from "@/data/services";
 import { absoluteUrl } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Dubai | Same-Day Pickup & Clearance Service",
+  title: "Junk Removal Dubai | Same-Day Junk Pickup & Clearance",
   description:
-    "Junk removal in Dubai for furniture, appliances, debris and full clearances. Same-day pickup may be available across Dubai areas. WhatsApp us now.",
+    "Junk removal Dubai service for furniture removal, appliance removal, rubbish removal, waste collection and house clearance. Same-day pickup may be available.",
   alternates: { canonical: absoluteUrl("/") },
   openGraph: {
-    title: "Junk Removal Dubai | Same-Day Pickup & Clearance Service",
-    description: "Junk removal in Dubai. Same-day pickup may be available across Dubai areas.",
+    title: "Junk Removal Dubai | Same-Day Junk Pickup & Clearance",
+    description: "Junk removal Dubai service for furniture, appliances, rubbish, waste and house clearance across the city.",
     url: absoluteUrl("/"),
   },
 };
 
 const whyUs = [
-  { icon: Zap, t: "Same-Day Pickup", d: "Available when scheduling, truck capacity and building access allow." },
-  { icon: Wallet, t: "Clear Pickup Details", d: "Photos help us confirm the scope before pickup details are finalized." },
-  { icon: ShieldCheck, t: "Licensed & Insured", d: "A careful crew for homes, offices, villas and apartment buildings." },
-  { icon: Leaf, t: "Responsible Disposal", d: "Usable, recyclable and disposal items are sorted where suitable." },
+  { icon: Zap, t: "Same-Day Junk Pickup", d: "Same day junk removal Dubai slots are available when scheduling, truck capacity and building access allow." },
+  { icon: Wallet, t: "Clear Pickup Details", d: "Photos help us confirm scope and give practical options for cheap junk removal Dubai requests without surprise add-ons." },
+  { icon: ShieldCheck, t: "Licensed & Insured", d: "A careful junk removal company Dubai residents can book for homes, villas and apartment buildings." },
+  { icon: Leaf, t: "Responsible Disposal", d: "Usable, recyclable and disposal items are sorted for responsible waste removal Dubai support where suitable." },
   { icon: Users, t: "Respectful Crew", d: "A practical team focused on clear communication and careful handling." },
   { icon: MapPinned, t: "Dubai-Wide Coverage", d: "From Dubai Marina to Mirdif, Jebel Ali to Deira." },
 ];
@@ -42,31 +42,31 @@ const stats = [
 const heroTrust = [
   { icon: MessageCircle, label: "Fast WhatsApp response" },
   { icon: Camera, label: "Send pickup photos" },
-  { icon: Clock, label: "Same-day slots available" },
-  { icon: Truck, label: "Dubai-wide pickup" },
+  { icon: Clock, label: "Same-day junk pickup" },
+  { icon: Truck, label: "Dubai-wide junk collection" },
 ];
 
 const proofItems = [
   { icon: Clock, title: "Same-Day Pickup Available", body: "When slots are open, we can collect furniture, appliances and general junk on the same day." },
-  { icon: ShieldCheck, title: "Licensed & Insured Crew", body: "A careful team for apartments, villas, offices and building access requirements." },
-  { icon: MapPinned, title: "Dubai-Wide Service", body: "Pickup support across Dubai communities, from high-rise towers to villa neighborhoods." },
+  { icon: ShieldCheck, title: "Licensed & Insured Crew", body: "A careful junk removal service Dubai customers can use for apartments, villas and building access requirements." },
+  { icon: MapPinned, title: "Dubai-Wide Service", body: "Local pickup support for searches like junk removal near me, from high-rise towers to villa neighborhoods." },
   { icon: Camera, title: "WhatsApp Pickup Details", body: "Send photos of the junk so the team can check volume, access and disposal needs quickly." },
-  { icon: Leaf, title: "Safe Disposal Support", body: "Items are handled with donation, recycling and responsible disposal in mind where suitable." },
-  { icon: Sofa, title: "All Common Junk Types", body: "Furniture, appliances, villa clearance, office clearance, debris and general junk removal." },
+  { icon: Leaf, title: "Safe Disposal Support", body: "Items are handled with donation, recycling and responsible garbage removal Dubai practices where suitable." },
+  { icon: Sofa, title: "All Common Junk Types", body: "Furniture removal Dubai, appliance removal Dubai, villa clearance, debris and general junk removal." },
 ];
 
 const guarantees = [
   "Clear communication before the pickup is confirmed",
   "Careful handling around floors, lifts, walls and common areas",
   "No hidden surprise after the pickup details are confirmed",
-  "Respectful team for homes, offices, villas and apartments",
+  "Respectful team for homes, villas and apartments",
   "Same-day support when scheduling and access allow",
 ];
 
 const customerExperience = [
-  { title: "Clear WhatsApp Communication", text: "Send photos, pickup area and access details so the team can respond with the right next step." },
+  { title: "Clear WhatsApp Communication", text: "Send photos, pickup area and access details so the team can respond with the right next step for junk pickup Dubai jobs." },
   { title: "Careful Pickup Handling", text: "The crew plans for lifts, stairs, loading areas and bulky items before arriving at the property." },
-  { title: "Dubai Area Coordination", text: "Pickup timing can be planned around apartment towers, villa communities, offices and building rules." },
+  { title: "Dubai Area Coordination", text: "Pickup timing can be planned around apartment towers, villa communities and building rules across Dubai." },
 ];
 
 export default function Home() {
@@ -74,8 +74,8 @@ export default function Home() {
     <>
       <PageHero
         eyebrow="Dubai - Same-Day Pickup"
-        title="Fast, Reliable Junk Removal in Dubai - Same-Day Pickup, Anywhere in the City"
-        sub="From a single sofa to a full villa clearance, our licensed and insured team hauls away furniture, appliances, debris and clutter - and disposes of it responsibly. Book in 60 seconds on WhatsApp."
+        title="Fast Junk Removal Dubai - Same-Day Pickup Anywhere in the City"
+        sub="From a single sofa to full house clearance Dubai jobs, our licensed and insured team handles junk pickup Dubai customers can book quickly for furniture, appliances, rubbish, debris and clutter. Book in 60 seconds on WhatsApp."
       >
         <Cta variant="wa" size="lg" />
         <Cta variant="call" size="lg" />
@@ -95,9 +95,9 @@ export default function Home() {
         <div className="grid items-start gap-10 lg:grid-cols-[1fr_2fr]">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Trust & Proof</p>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">A Practical Junk Removal Team in Dubai You Can Book With Confidence</h2>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">A Practical Junk Removal Company Dubai Customers Can Book With Confidence</h2>
             <p className="mt-4 text-muted-foreground">
-              Send photos on WhatsApp, confirm the pickup details, and get support for furniture, appliance, villa, office and general junk removal across Dubai.
+              Send photos on WhatsApp, confirm the pickup details, and get support for furniture, appliance, villa and general rubbish removal Dubai needs.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
@@ -128,7 +128,7 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">What We Do</p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">Every Type of Junk Removal in Dubai - Handled in One Visit</h2>
           <p className="mt-4 text-muted-foreground">
-            Whether you&apos;re upgrading your apartment in Dubai Marina, clearing an office in DIFC, or finishing a villa renovation in Arabian Ranches, our crew arrives with the right truck, tools and team.
+            Whether you&apos;re upgrading your apartment in Dubai Marina, booking garden waste removal Dubai support after landscaping, or finishing a villa renovation in Arabian Ranches, our crew arrives with the right truck, tools and team.
           </p>
         </div>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -146,7 +146,7 @@ export default function Home() {
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Pricing Guidance</p>
               <h2 className="mt-3 text-3xl font-bold md:text-4xl">Send Photos to Check Pickup Details and Pricing</h2>
               <p className="mt-4 text-muted-foreground">
-                Final pricing depends on item volume, building or villa access, pickup area, crew time and disposal type. Send photos on WhatsApp so the team can review the job before confirming.
+                Final pricing depends on item volume, building or villa access, pickup area, crew time and disposal type. Send photos on WhatsApp so the team can review the job and suggest the best junk removal Dubai option before confirming.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <Cta variant="wa" size="lg" />
@@ -158,7 +158,7 @@ export default function Home() {
             <div className="rounded-2xl border border-border bg-card p-6 shadow-soft">
               <h3 className="font-display text-xl font-semibold">What Affects Pickup Pricing?</h3>
               <ul className="mt-5 space-y-3">
-                {["Item volume and weight", "Lift, stairs, parking and loading access", "Pickup area and timing", "Furniture dismantling or heavy lifting", "Disposal, recycling or donation handling"].map((item) => (
+                {["Item volume and weight", "Lift, stairs, parking and loading access", "Pickup area and timing", "Furniture dismantling or heavy lifting", "Waste collection Dubai, recycling or donation handling"].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-foreground">
                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-action" />
                     <span>{item}</span>
@@ -195,7 +195,7 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Service Promise</p>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear Communication, Careful Handling, No Surprise After Confirmation</h2>
             <p className="mt-4 text-muted-foreground">
-              Junk removal often involves lifts, parking, building security and heavy items. We confirm the important details first so pickup day is straightforward.
+              Junk collection Dubai jobs often involve lifts, parking, building security and heavy items. We confirm the important details first so pickup day is straightforward.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link href="/services" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
@@ -221,7 +221,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Citywide Coverage</p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">Junk Removal Across Every Corner of Dubai</h2>
-          <p className="mt-4 text-muted-foreground">High-rise apartments, waterfront villas, business towers, family communities - pick your area.</p>
+          <p className="mt-4 text-muted-foreground">High-rise apartments, waterfront villas, business towers, family communities - choose your area for local waste removal Dubai support.</p>
         </div>
         <div className="mt-10"><AreaGrid limit={16} /></div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -239,7 +239,7 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-action">Customers</p>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">What Customers Can Expect</h2>
             <p className="mt-4 text-muted-foreground">
-              Real customer reviews can be added here after they are collected and approved. Until then, this section explains the service experience without making review claims.
+              Real customer reviews can be added here after they are collected and approved. Until then, this section explains how our rubbish removal Dubai process works without making review claims.
             </p>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -266,8 +266,8 @@ export default function Home() {
       </section>
 
       <CtaBanner
-        heading="Ready to Clear It Out? Let's Make It Disappear Today."
-        sub="Message us on WhatsApp with a photo of your junk so we can check pickup details and availability."
+        heading="Ready for Same Day Junk Removal Dubai Support?"
+        sub="Message us on WhatsApp with a photo of your junk so we can check pickup details, availability and the right collection option."
       />
     </>
   );

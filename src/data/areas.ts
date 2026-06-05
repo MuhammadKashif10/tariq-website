@@ -12,8 +12,8 @@ export const areas: Area[] = [
   a("dubai-marina", "Dubai Marina", "One of Dubai's busiest residential zones — towers, move-ins, move-outs daily.", "Dubai Marina sees constant turnover. We're set up for it — frequent slots, lift bookings handled with building management, and crews who know which towers need which entrances."),
   a("jbr", "JBR", "Beachfront living, restaurants, family apartments along The Walk.", "JBR pickups usually mean lift-only access and timed loading bays. We schedule accordingly so your move-out, renovation cleanup or single-sofa pickup doesn't clash with peak foot traffic."),
   a("palm-jumeirah", "Palm Jumeirah", "Iconic frond villas and trunk apartments.", "Palm Jumeirah requires community-pass coordination. We arrange access in advance, bring the right truck size for villa driveways, and respect the quiet-hours expected on the Palm."),
-  a("business-bay", "Business Bay", "Mixed-use towers — apartments and corporate offices.", "Business Bay is half home, half office. We handle apartment pickups in the residential towers and after-hours office clearances in the commercial ones — often on the same day."),
-  a("difc", "DIFC", "Premier business district — Grade A offices and luxury residences.", "DIFC office clearances are usually after-hours weekend jobs with strict building access. We pre-coordinate everything with property management so the floor is empty by Monday."),
+  a("business-bay", "Business Bay", "Mixed-use towers — apartments and corporate offices.", "Business Bay is half home, half office. We handle apartment pickups in the residential towers and coordinated junk pickups in the commercial ones — often on the same day."),
+  a("difc", "DIFC", "Premier business district — Grade A offices and luxury residences.", "DIFC pickups are usually after-hours weekend jobs with strict building access. We pre-coordinate everything with property management so the floor is ready by Monday."),
   a("deira", "Deira", "Older Dubai — apartment buildings, shops, family homes.", "Deira's older buildings often mean narrow stairs, no service lifts, and tight street parking. Our crews bring the right gear and crew size to handle it without delays."),
   a("bur-dubai", "Bur Dubai", "Established neighbourhoods, mixed apartment and villa stock.", "Bur Dubai pickups range from single-room flats to full villa clearances. We adapt the truck and crew to the job — same booking, same WhatsApp number."),
   a("karama", "Karama", "Dense residential apartment community.", "Karama buildings can be tight on access and parking. We schedule pickups for windows that work for security and avoid blocking residents."),
@@ -46,7 +46,7 @@ export const areas: Area[] = [
   a("the-lakes", "The Lakes", "Lakeside villa community.", "The Lakes pickups need careful access coordination. We bring the right truck for the driveways."),
   a("emirates-hills", "Emirates Hills", "Exclusive villa community.", "Emirates Hills work requires advance security clearance and a discreet, well-presented crew. That's what we send."),
   a("al-furjan", "Al Furjan", "Family villa and townhouse community.", "Al Furjan pickups are common — we know the cluster layouts and have regular slots."),
-  a("dubai-investment-park", "Dubai Investment Park", "Mixed residential, commercial and industrial.", "DIP pickups can mean warehouse clearouts, office clearance or family villas. We handle all three."),
+  a("dubai-investment-park", "Dubai Investment Park", "Mixed residential, commercial and industrial.", "DIP pickups can mean warehouse clearouts, commercial junk removal or family villas. We handle all three."),
   a("jebel-ali", "Jebel Ali", "Industrial and residential mix at the city's edge.", "Jebel Ali pickups often involve bulk hauls and longer drives. We price and schedule accordingly."),
 ];
 

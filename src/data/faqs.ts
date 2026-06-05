@@ -10,7 +10,6 @@ export const faqs: Faq[] = [
   { q: "Are you licensed and insured?", a: "Yes. We operate as a licensed junk removal company in Dubai and carry full insurance for our crew and your property." },
   { q: "Do you remove construction debris after renovations?", a: "Yes — tiles, wood, drywall, packaging and rubble are all handled." },
   { q: "Can you clear an entire villa or apartment?", a: "Absolutely. Full villa, townhouse and apartment clearances are a core service." },
-  { q: "Do you handle office clearances?", a: "Yes — desks, chairs, cabinets, partitions and electronics, scheduled after-hours where needed." },
   { q: "Where does the junk go?", a: "We sort everything. Reusable items are donated, recyclables routed to recycling partners, and the rest taken to licensed Dubai disposal facilities." },
   { q: "Do you take e-waste like old TVs and computers?", a: "Yes — electronics are routed to certified e-waste recyclers." },
   { q: "What about mattresses?", a: "Mattresses of any size are collected and disposed of responsibly." },

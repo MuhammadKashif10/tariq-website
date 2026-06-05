@@ -1,5 +1,5 @@
 import {
-  Sofa, Refrigerator, Bed, Building2, Home, HardHat,
+  Sofa, Refrigerator, Bed, Home, HardHat,
   Leaf, MonitorSmartphone, KeyRound, Zap, type LucideIcon,
 } from "lucide-react";
 
@@ -114,38 +114,6 @@ export const services: Service[] = [
       "Bulk pickup pricing",
     ],
     primaryKeyword: "mattress disposal Dubai",
-  },
-  {
-    slug: "office-clearance",
-    name: "Office Clearance",
-    shortName: "Office",
-    tagline: "After-hours desk, chair and cabinet clearouts.",
-    icon: Building2,
-    metaTitle: "Office Clearance Dubai | After-Hours Pickup Service",
-    metaDescription: "Office clearance in Dubai — desks, chairs, cabinets, partitions and electronics. After-hours scheduling, licensed and insured. Book today.",
-    intro: "Clearing an office in DIFC, Business Bay or JLT? We work after-hours and weekends so Monday morning looks like nothing happened.",
-    longIntro: [
-      "Office clearance in Dubai usually has a deadline — handover day, fit-out start, or a landlord walkthrough. We plan around it. Inventory is done up front, building management is coordinated, and our crew arrives with the right truck count to clear the floor in a single shift.",
-      "Confidential documents are shredded on request. Electronics are routed to e-waste partners. Reusable furniture is donated where possible.",
-    ],
-    handles: [
-      "Desks, workstations and chairs",
-      "Filing cabinets and storage",
-      "Meeting tables and partitions",
-      "IT equipment and monitors",
-      "Server racks and cables",
-      "Pantry appliances",
-      "Reception furniture",
-      "Confidential paper waste",
-    ],
-    whyUs: [
-      "After-hours and weekend availability",
-      "Building management coordination",
-      "Full inventory and disposal report",
-      "Confidential shredding option",
-      "Donation and recycling routing",
-    ],
-    primaryKeyword: "office clearance Dubai",
   },
   {
     slug: "house-villa-apartment-clearance",

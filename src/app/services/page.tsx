@@ -12,7 +12,7 @@ import { absoluteUrl } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Junk Removal Services Dubai | Furniture, Appliances & Clearance",
   description:
-    "Full list of junk removal services in Dubai - furniture, appliances, mattresses, office and villa clearance, debris and e-waste. Same-day pickup may be available.",
+    "Full list of junk removal services in Dubai - furniture, appliances, mattresses, villa clearance, debris and e-waste. Same-day pickup may be available.",
   alternates: { canonical: absoluteUrl("/services") },
   openGraph: {
     title: "Junk Removal Services Dubai",
