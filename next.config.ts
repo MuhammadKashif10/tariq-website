@@ -9,17 +9,13 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
 
-  // Preferred host: apex (non-www). Permanently redirect www → apex.
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.fastjunkservicedubai.com" }],
-        destination: "https://fastjunkservicedubai.com/:path*",
-        permanent: true,
-      },
-    ];
-  },
+  // NOTE: www ↔ apex canonicalization is intentionally NOT done here.
+  // On Vercel the canonical-host redirect is owned by the platform (the domain
+  // you mark as "primary" in Project → Domains). Adding an app-level redirect
+  // that points the opposite way to Vercel's produces an infinite 308 loop
+  // (ERR_TOO_MANY_REDIRECTS). Set the apex "fastjunkservicedubai.com" as the
+  // primary domain in the Vercel dashboard so it matches the app's canonical
+  // (site.domain), and Vercel will redirect www → apex for you.
 };
 
 export default nextConfig;
