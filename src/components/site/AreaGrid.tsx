@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { MapPin } from "lucide-react";
-import { areas } from "@/data/areas";
+import { getPublishedAreas } from "@/lib/area/validation";
 
 export function AreaGrid({ limit }: { limit?: number }) {
-  const list = limit ? areas.slice(0, limit) : areas;
+  const published = getPublishedAreas();
+  const list = limit ? published.slice(0, limit) : published;
   return (
     <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
       {list.map((a) => (

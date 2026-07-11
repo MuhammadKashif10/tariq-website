@@ -226,7 +226,7 @@ export default function Home() {
         <div className="mt-10"><AreaGrid limit={16} /></div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link href="/areas" className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-action">
-            View all 40 areas <ArrowRight className="h-4 w-4" />
+            View all Dubai areas <ArrowRight className="h-4 w-4" />
           </Link>
           <span className="text-muted-foreground">-</span>
           <Cta variant="schedule" />

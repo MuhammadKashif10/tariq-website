@@ -17,19 +17,41 @@ interface Props {
   size?: "md" | "lg";
   className?: string;
   whatsappContext?: string;
+  /** Optional wording override. When omitted, the default label is used. */
+  label?: string;
 }
 
-export function Cta({ variant, size = "md", className = "", whatsappContext }: Props) {
+export function Cta({ variant, size = "md", className = "", whatsappContext, label }: Props) {
   const sizeCls = size === "lg" ? "px-6 py-3.5 text-base" : "px-5 py-2.5 text-sm";
   const cls = `inline-flex items-center justify-center gap-2 rounded-lg font-semibold shadow-soft transition ${sizeCls} ${styles[variant]} ${className}`;
   const waHref = whatsappHref(whatsappContext);
   if (variant === "wa")
-    return <a href={waHref} target="_blank" rel="noopener noreferrer" className={cls}><MessageCircle className="h-4 w-4" /> WhatsApp Us</a>;
+    return (
+      <a href={waHref} target="_blank" rel="noopener noreferrer" className={cls}>
+        <MessageCircle className="h-4 w-4" /> {label ?? "WhatsApp Us"}
+      </a>
+    );
   if (variant === "call")
-    return <a href={telHref} className={cls}><Phone className="h-4 w-4" /> Call Now</a>;
+    return (
+      <a href={telHref} className={cls}>
+        <Phone className="h-4 w-4" /> {label ?? "Call Now"}
+      </a>
+    );
   if (variant === "book")
-    return <a href={waHref} target="_blank" rel="noopener noreferrer" className={cls}>Book Now <ArrowRight className="h-4 w-4" /></a>;
+    return (
+      <a href={waHref} target="_blank" rel="noopener noreferrer" className={cls}>
+        {label ?? "Book Now"} <ArrowRight className="h-4 w-4" />
+      </a>
+    );
   if (variant === "schedule")
-    return <Link href="/contact" className={cls}>Schedule a Pickup <ArrowRight className="h-4 w-4" /></Link>;
-  return <Link href="/contact" className={cls}>Contact Us Today <ArrowRight className="h-4 w-4" /></Link>;
+    return (
+      <Link href="/contact" className={cls}>
+        {label ?? "Schedule a Pickup"} <ArrowRight className="h-4 w-4" />
+      </Link>
+    );
+  return (
+    <Link href="/contact" className={cls}>
+      {label ?? "Contact Us Today"} <ArrowRight className="h-4 w-4" />
+    </Link>
+  );
 }

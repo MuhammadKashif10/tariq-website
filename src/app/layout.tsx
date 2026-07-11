@@ -5,22 +5,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingButtons } from "@/components/site/FloatingButtons";
 import { absoluteUrl, site } from "@/lib/site-config";
-
-const orgSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: site.name,
-  telephone: site.phone,
-  email: site.email,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: site.address,
-    addressLocality: "Dubai",
-    addressCountry: "AE",
-  },
-  openingHours: ["Sa-Th 07:00-22:00", "Fr 09:00-22:00"],
-  priceRange: "AED",
-};
+import { globalSchemaGraph } from "@/lib/schema/global";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
@@ -50,7 +35,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchemaGraph()) }}
         />
         <div className="flex min-h-screen flex-col">
           <Header />

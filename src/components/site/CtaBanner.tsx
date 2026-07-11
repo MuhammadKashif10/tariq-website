@@ -3,9 +3,12 @@ import { Cta } from "./Cta";
 interface Props {
   heading: string;
   sub?: string;
+  /** Optional CTA wording overrides (used by the Area Page CTA rotation). */
+  primaryLabel?: string;
+  secondaryLabel?: string;
 }
 
-export function CtaBanner({ heading, sub }: Props) {
+export function CtaBanner({ heading, sub, primaryLabel, secondaryLabel }: Props) {
   return (
     <section className="container-prose py-16">
       <div className="relative overflow-hidden rounded-3xl bg-gradient-hero px-8 py-14 text-center text-primary-foreground shadow-elevated md:px-14 md:py-20">
@@ -14,8 +17,8 @@ export function CtaBanner({ heading, sub }: Props) {
         <h2 className="relative text-3xl font-bold md:text-4xl">{heading}</h2>
         {sub && <p className="relative mx-auto mt-4 max-w-2xl text-primary-foreground/85">{sub}</p>}
         <div className="relative mt-8 flex flex-wrap justify-center gap-3">
-          <Cta variant="wa" size="lg" />
-          <Cta variant="call" size="lg" />
+          <Cta variant="wa" size="lg" label={primaryLabel} />
+          <Cta variant="call" size="lg" label={secondaryLabel} />
         </div>
       </div>
     </section>

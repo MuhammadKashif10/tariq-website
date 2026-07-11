@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, MessageCircle, Mail, MapPin, Clock, Truck } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Clock, Truck } from "lucide-react";
 import { site, telHref, waHref } from "@/lib/site-config";
 import { services } from "@/data/services";
 
@@ -61,7 +61,6 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm">
             <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0" /><a href={telHref}>{site.phoneDisplay}</a></li>
             <li className="flex items-start gap-2"><MessageCircle className="mt-0.5 h-4 w-4 shrink-0" /><a href={waHref} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 shrink-0" /><a href={`mailto:${site.email}`}>{site.email}</a></li>
             <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0" />{site.address}</li>
             <li className="flex items-start gap-2"><Clock className="mt-0.5 h-4 w-4 shrink-0" />{site.hours}</li>
           </ul>

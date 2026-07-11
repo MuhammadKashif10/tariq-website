@@ -10,6 +10,9 @@ export const site = {
   address: "Business Bay, Dubai, UAE",
   hours: "Sat-Thu 7:00 AM - 10:00 PM | Fri 9:00 AM - 10:00 PM",
   trustPills: ["Licensed", "Insured", "Eco-Friendly", "Same-Day Service"],
+  // Verified social / GBP profile URLs. Empty until real URLs are provided —
+  // never fabricated. Feeds Organization & LocalBusiness `sameAs`.
+  sameAs: [] as string[],
 };
 
 export const telHref = `tel:${site.phone}`;
