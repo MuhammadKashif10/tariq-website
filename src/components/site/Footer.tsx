@@ -20,31 +20,70 @@ export function Footer() {
             same-day pickups, eco-friendly disposal.
           </p>
           <div className="mt-5 flex gap-2">
-            <a href={waHref} target="_blank" rel="noopener noreferrer"
-               className="inline-flex items-center gap-1.5 rounded-md bg-whatsapp px-3 py-1.5 text-xs font-semibold text-white">
+            <a
+              href={waHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-whatsapp px-3 py-1.5 text-xs font-semibold text-white"
+            >
               <MessageCircle className="h-3.5 w-3.5" /> WhatsApp
             </a>
-            <a href={telHref}
-               className="inline-flex items-center gap-1.5 rounded-md bg-action px-3 py-1.5 text-xs font-semibold text-action-foreground">
+            <a
+              href={telHref}
+              className="inline-flex items-center gap-1.5 rounded-md bg-action px-3 py-1.5 text-xs font-semibold text-action-foreground"
+            >
               <Phone className="h-3.5 w-3.5" /> Call
             </a>
           </div>
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">Quick Links</h4>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">
+            Quick Links
+          </h4>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><Link href="/" className="hover:text-action">Home</Link></li>
-            <li><Link href="/about" className="hover:text-action">About</Link></li>
-            <li><Link href="/services" className="hover:text-action">Services</Link></li>
-            <li><Link href="/areas" className="hover:text-action">Service Areas</Link></li>
-            <li><Link href="/faq" className="hover:text-action">FAQ</Link></li>
-            <li><Link href="/contact" className="hover:text-action">Contact</Link></li>
+            <li>
+              <Link href="/" className="hover:text-action">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-action">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/services" className="hover:text-action">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/areas" className="hover:text-action">
+                Service Areas
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="hover:text-action">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link href="/faq" className="hover:text-action">
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:text-action">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">Top Services</h4>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">
+            Top Services
+          </h4>
           <ul className="mt-4 space-y-2 text-sm">
             {topServices.map((s) => (
               <li key={s.slug}>
@@ -57,22 +96,44 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">Contact</h4>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-primary-foreground/60">
+            Contact
+          </h4>
           <ul className="mt-4 space-y-3 text-sm">
-            <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0" /><a href={telHref}>{site.phoneDisplay}</a></li>
-            <li className="flex items-start gap-2"><MessageCircle className="mt-0.5 h-4 w-4 shrink-0" /><a href={waHref} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-            <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0" />{site.address}</li>
-            <li className="flex items-start gap-2"><Clock className="mt-0.5 h-4 w-4 shrink-0" />{site.hours}</li>
+            <li className="flex items-start gap-2">
+              <Phone className="mt-0.5 h-4 w-4 shrink-0" />
+              <a href={telHref}>{site.phoneDisplay}</a>
+            </li>
+            <li className="flex items-start gap-2">
+              <MessageCircle className="mt-0.5 h-4 w-4 shrink-0" />
+              <a href={waHref} target="_blank" rel="noopener noreferrer">
+                WhatsApp
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
+              {site.address}
+            </li>
+            <li className="flex items-start gap-2">
+              <Clock className="mt-0.5 h-4 w-4 shrink-0" />
+              {site.hours}
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="border-t border-primary-foreground/15">
         <div className="container-prose flex flex-col items-center justify-between gap-3 py-5 text-xs text-primary-foreground/65 sm:flex-row">
-          <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} {site.name}. All rights reserved.
+          </p>
           <div className="flex gap-5">
-            <Link href="/privacy-policy" className="hover:text-action">Privacy Policy</Link>
-            <Link href="/terms-conditions" className="hover:text-action">Terms & Conditions</Link>
+            <Link href="/privacy-policy" className="hover:text-action">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-conditions" className="hover:text-action">
+              Terms & Conditions
+            </Link>
           </div>
         </div>
       </div>

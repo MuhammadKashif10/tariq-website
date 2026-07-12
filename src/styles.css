@@ -87,7 +87,12 @@
   --surface: oklch(0.98 0.008 240);
   --surface-foreground: oklch(0.18 0.04 250);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.22 0.08 250) 0%, oklch(0.32 0.1 245) 55%, oklch(0.42 0.12 230) 100%);
+  --gradient-hero: linear-gradient(
+    135deg,
+    oklch(0.22 0.08 250) 0%,
+    oklch(0.32 0.1 245) 55%,
+    oklch(0.42 0.12 230) 100%
+  );
   --gradient-brand: linear-gradient(135deg, oklch(0.32 0.09 245), oklch(0.45 0.13 230));
   --shadow-soft: 0 4px 18px -6px oklch(0.28 0.08 250 / 0.18);
   --shadow-elevated: 0 18px 48px -16px oklch(0.28 0.08 250 / 0.28);
@@ -116,16 +121,48 @@
 }
 
 @layer base {
-  * { border-color: var(--color-border); }
-  html { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
-  body { background-color: var(--color-background); color: var(--color-foreground); }
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  /* CSS-only smooth scrolling for in-page anchors (e.g. the article TOC). */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }
 
 @layer utilities {
-  .bg-gradient-hero { background-image: var(--gradient-hero); }
-  .bg-gradient-brand { background-image: var(--gradient-brand); }
-  .shadow-soft { box-shadow: var(--shadow-soft); }
-  .shadow-elevated { box-shadow: var(--shadow-elevated); }
-  .container-prose { max-width: 72rem; margin-inline: auto; padding-inline: 1.25rem; }
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+  .bg-gradient-brand {
+    background-image: var(--gradient-brand);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  .container-prose {
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
 }

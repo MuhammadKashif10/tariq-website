@@ -1,0 +1,15 @@
+# Blog Image Credits
+
+All images sourced from Pexels under the Pexels License (free for commercial use,
+no attribution required). Downloaded, resized and converted to WebP for this project.
+Sources documented here for traceability.
+
+| File | Source |
+|------|--------|
+| junk-removal-cost-dubai.webp | https://www.pexels.com/photo/7203842/ |
+| bulky-furniture-heavy-item.webp | https://www.pexels.com/photo/7218121/ |
+| loaded-junk-removal-truck-dubai.webp | https://www.pexels.com/photo/29584744/ |
+| furniture-disposal-dubai.webp | https://www.pexels.com/photo/28983909/ |
+| moving-old-couch-out-dubai.webp | https://www.pexels.com/photo/7464712/ |
+| rearranging-sofa-living-room.webp | https://www.pexels.com/photo/7217785/ |
+| cleared-living-room-after-furniture-removal.webp | https://www.pexels.com/photo/6835103/ |
