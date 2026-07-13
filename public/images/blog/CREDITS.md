@@ -13,3 +13,10 @@ Sources documented here for traceability.
 | moving-old-couch-out-dubai.webp | https://www.pexels.com/photo/7464712/ |
 | rearranging-sofa-living-room.webp | https://www.pexels.com/photo/7217785/ |
 | cleared-living-room-after-furniture-removal.webp | https://www.pexels.com/photo/6835103/ |
+| garbage-removal-dubai.webp | https://www.pexels.com/photo/9222613/ |
+| garbage-bags-tied-ready-for-collection.webp | https://www.pexels.com/photo/18365315/ |
+| household-waste-bins-outside-building.webp | https://www.pexels.com/photo/18396802/ |
+| sorting-recyclable-waste-into-bin.webp | https://www.pexels.com/photo/7565374/ |
+| rubbish-removal-dubai.webp | https://www.pexels.com/photo/5994772/ |
+| garden-yard-waste-bag-dubai.webp | https://www.pexels.com/photo/29192615/ |
+| diy-renovation-leftover-paint-cans.webp | https://www.pexels.com/photo/5641684/ |

@@ -122,7 +122,7 @@ export const articles: Article[] = [
       src: "/images/blog/junk-removal-cost-dubai.webp",
       alt: "Household items and cardboard boxes gathered together before a home clear-out in Dubai.",
     },
-    relatedSlugs: ["furniture-disposal-dubai"],
+    relatedSlugs: ["furniture-disposal-dubai", "garbage-removal-dubai"],
     content: [
       {
         type: "paragraph",
@@ -342,7 +342,7 @@ export const articles: Article[] = [
       src: "/images/blog/furniture-disposal-dubai.webp",
       alt: "An old sofa left outdoors against a wall, ready for furniture disposal.",
     },
-    relatedSlugs: ["junk-removal-cost-dubai"],
+    relatedSlugs: ["junk-removal-cost-dubai", "garbage-removal-dubai"],
     content: [
       {
         type: "paragraph",
@@ -521,6 +521,424 @@ export const articles: Article[] = [
       {
         q: "How do I dispose of office furniture in Dubai?",
         a: "Office furniture is usually handled as a larger clearance because of the quantity involved — desks, chairs and storage together. Booking a service that can work around your operating hours and remove everything in one visit is generally the practical approach.",
+      },
+    ],
+  },
+  {
+    slug: "garbage-removal-dubai",
+    title: "Garbage Removal in Dubai: How It Works and When You Need It",
+    excerpt:
+      "Garbage removal in Dubai isn't the same as your building's daily bin collection. Here's what it actually covers, when you need it, and how it works.",
+    category: "Dubai Living",
+    publishedAt: "2026-07-13",
+    readingTimeMinutes: 7,
+    tags: ["Garbage Removal", "Waste Collection", "Dubai Living", "Recycling"],
+    keywords: [
+      "garbage removal dubai",
+      "rubbish removal dubai",
+      "waste removal dubai",
+      "trash removal dubai",
+      "garbage collection dubai",
+    ],
+    metaTitle: "Garbage Removal Dubai: How It Works & What to Expect",
+    metaDescription:
+      "Garbage removal in Dubai explained — how it differs from routine waste collection, what's included, local rules, and how to book a pickup.",
+    image: {
+      src: "/images/blog/garbage-removal-dubai.webp",
+      alt: "A person in overalls carrying two full garbage bags for collection.",
+    },
+    relatedSlugs: ["rubbish-removal-dubai", "junk-removal-cost-dubai", "furniture-disposal-dubai"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Search for garbage removal in Dubai and you'll find two very different things bundled under the same phrase: the routine bin collection your building already handles, and a private service you book when there's more rubbish than the bins were ever meant to take. Mixing the two up is the most common source of confusion — and the reason people either overpay for something their building does for free, or assume a problem is covered when it isn't. This guide separates the two clearly, so you know exactly which one applies to your situation.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-it-means",
+        text: 'What "garbage removal" actually means in Dubai',
+      },
+      {
+        type: "paragraph",
+        text: "At its simplest, garbage removal is the process of getting household or commercial waste out of your space and into proper disposal channels. In Dubai, that happens in two layers. The first is the everyday system already built into where you live — communal bins, waste rooms or chutes that most residential and commercial buildings maintain as standard. The second is a private, on-demand service for everything that falls outside that everyday system: too much waste at once, items too bulky for a bin, or a clear-out that goes well beyond normal household rubbish.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "routine-vs-private",
+        text: "Routine waste collection vs a private garbage removal service",
+      },
+      {
+        type: "paragraph",
+        text: "Most homes and offices in Dubai already have waste collection sorted out. Apartment towers typically have a designated bin room, chute or collection point that building management empties on a regular schedule. Villa communities usually have kerbside bins collected on set days. This routine system is designed for ordinary, day-to-day household rubbish — kitchen waste, packaging, general trash in normal quantities.",
+      },
+      {
+        type: "paragraph",
+        text: "A private garbage removal service exists for what that routine system was never built to handle: a sudden surge of waste, bulky items that won't fit in a bin, or rubbish that's accumulated over time and needs clearing in one go. Neither system replaces the other — they cover different situations, and knowing which one you're actually facing saves both time and unnecessary cost.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "when-you-need-it",
+        text: "When you're likely to need a private garbage removal service",
+      },
+      {
+        type: "paragraph",
+        text: "A few everyday situations in Dubai push waste beyond what routine collection is designed for:",
+      },
+      {
+        type: "list",
+        items: [
+          "After hosting a gathering, event or celebration, when the volume of rubbish is well above a normal day.",
+          "During a spring clean or seasonal declutter, when bags pile up faster than the bin room can absorb.",
+          "Moving out of an apartment or villa, when leftover packaging, discarded items and general clutter need clearing before handover.",
+          "After online shopping or delivery-heavy periods, when cardboard and packaging waste builds up quickly.",
+          "Running a small business or retail unit that generates more general waste than a shared building bin can take.",
+          "Clearing out a storeroom, garage or maid's room where waste has quietly accumulated for months.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/garbage-bags-tied-ready-for-collection.webp",
+        alt: "Household garbage bags tied and gathered together, ready for collection.",
+        caption:
+          "Once bagged rubbish builds up beyond what communal bins can hold, it's time for a dedicated pickup.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "whats-included",
+        text: "What a garbage removal service typically covers",
+      },
+      {
+        type: "paragraph",
+        text: "A private garbage removal visit generally covers general household or commercial waste in volume — bagged rubbish, mixed general trash, packaging, and everyday discarded items that have built up beyond what a bin can absorb. The crew collects it directly from your unit or a nominated point, loads it, and takes it to proper disposal or sorting facilities rather than leaving it for someone else to deal with.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "beyond-general-waste",
+        text: "Items that need a different route",
+      },
+      {
+        type: "paragraph",
+        text: "Not everything belongs in a general garbage pickup. Furniture, large appliances, electronics and construction debris are usually handled as their own category, since they need different handling, transport and disposal routes than bagged household waste. If your clear-out is mostly large items rather than loose rubbish, a furniture removal or dedicated clearance service is the better fit — general garbage removal is built for volume and mixed waste, not bulky single pieces.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "rules-etiquette",
+        text: "Rules and etiquette around garbage in Dubai",
+      },
+      {
+        type: "paragraph",
+        text: "Dubai takes cleanliness and proper waste handling seriously, and most buildings and communities have their own house rules on top of that. A few habits go a long way: don't leave loose bags outside communal bin areas once they're full, since it attracts pests and blocks access for others. Don't dump excess household waste in a neighbour's bin or a public bin not meant for that purpose. And never leave rubbish on open ground, in a stairwell or beside a building entrance — if there's more than the bins can take, that's exactly what a private collection is for.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/household-waste-bins-outside-building.webp",
+        alt: "Two household waste bins standing outside, used for regular rubbish collection.",
+        caption:
+          "Everyday bins are designed for ordinary household rubbish — not a sudden surge of waste.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "apartments-vs-villas",
+        text: "Apartments, villas and communal bin areas",
+      },
+      {
+        type: "paragraph",
+        text: "The setting shapes how a garbage removal visit runs. In apartment towers, crews usually work through a service lift and a designated bin room or loading bay, so timing and building access matter more than volume. In villa communities, direct vehicle access to the property makes things more straightforward, though larger homes can generate more waste at once once garages, storerooms and gardens are included. Either way, a private collection is arranged around your building's access rules rather than working against them.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "preparing",
+        text: "How to prepare for a garbage removal pickup",
+      },
+      {
+        type: "paragraph",
+        text: "A little preparation keeps the visit quick and straightforward:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Bag or box loose rubbish where possible, rather than leaving it loose.",
+          "Group everything in one accessible spot — a hallway, storeroom or ground-floor area works well.",
+          "Keep hazardous items (batteries, chemicals, gas canisters) separate and flag them when you book.",
+          "Note your floor, building access and whether a service lift needs booking in advance.",
+          "Give a rough idea of volume so the crew arrives with the right vehicle.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "responsible-disposal",
+        text: "Responsible and eco-friendly disposal",
+      },
+      {
+        type: "paragraph",
+        text: "Where your garbage ends up matters as much as getting it out of the house. A considered service separates what it can — recyclable packaging, glass, metal and plastics — rather than sending every bag straight to general waste. It's a small step, but at volume it meaningfully cuts down what actually reaches landfill. If you're able to sort recyclables out yourself before a pickup, that makes the job even more effective.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/sorting-recyclable-waste-into-bin.webp",
+        alt: "A hand placing a recyclable plastic container into a bin labelled for sorted waste.",
+        caption: "Separating recyclables before or during pickup keeps more waste out of landfill.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "booking",
+        text: "Booking a garbage removal service",
+      },
+      {
+        type: "paragraph",
+        text: "Booking is usually simple: describe roughly how much you have, mention any access details like floor or lift bookings, and agree on a time. Same-day collection is commonly available across Dubai when your schedule doesn't allow for advance planning, though booking ahead gives a crew more flexibility to plan the route and bring the right vehicle for the volume involved.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "Garbage removal in Dubai isn't a replacement for the bin collection your building already provides — it's what you call on when that everyday system reaches its limit. Recognising which situation you're in, whether that's a one-off surge after an event, a seasonal declutter, or an ongoing volume a household or business simply produces, is what makes the difference between a smooth pickup and a frustrating one. Once you know what you're dealing with, arranging it properly is the easy part.",
+      },
+    ],
+    faq: [
+      {
+        q: "What's the difference between garbage removal and my building's regular waste collection?",
+        a: "Regular waste collection is the everyday system your building already runs — communal bins or a chute emptied on a set schedule for normal household rubbish. Garbage removal is a private, on-demand service for waste beyond that: large volumes, event clean-ups, or a backlog that's built up over time.",
+      },
+      {
+        q: "Can I just leave extra garbage bags next to the communal bins?",
+        a: "It's best avoided. Overflow bags outside bin areas can attract pests, block access for other residents and go against most buildings' house rules. If you regularly have more rubbish than the bins can take, a private collection is the more reliable option.",
+      },
+      {
+        q: "Does garbage removal in Dubai include recycling?",
+        a: "A considered service typically separates recyclable materials such as plastic, glass and metal from general waste rather than sending everything to landfill. It's worth asking a provider directly how they handle sorting, since practices vary.",
+      },
+      {
+        q: "Is same-day garbage removal available in Dubai?",
+        a: "Often, yes — it depends on crew and vehicle availability on the day. If your timing is flexible, booking ahead still gives a provider more room to plan the visit efficiently.",
+      },
+      {
+        q: "What items aren't covered by a standard garbage removal service?",
+        a: "Furniture, large appliances, electronics and construction debris are usually handled separately, since they need different transport and disposal routes than bagged general waste. For those, a furniture removal, appliance pickup or debris clearance service is the better fit.",
+      },
+    ],
+  },
+  {
+    slug: "rubbish-removal-dubai",
+    title: "Rubbish Removal in Dubai: What Gets Collected and How It Works",
+    excerpt:
+      "Not sure if what you're clearing out even counts as \"rubbish\"? Here's what a rubbish removal service in Dubai actually takes, and what happens once you book.",
+    category: "Tips & Advice",
+    publishedAt: "2026-07-13",
+    readingTimeMinutes: 7,
+    tags: ["Rubbish Removal", "Waste Collection", "Garden Waste", "Dubai"],
+    keywords: [
+      "rubbish removal dubai",
+      "rubbish collection dubai",
+      "rubbish clearance dubai",
+      "household rubbish removal dubai",
+      "rubbish disposal dubai",
+    ],
+    metaTitle: "Rubbish Removal Dubai: What's Collected & How It Works",
+    metaDescription:
+      "A practical guide to rubbish removal in Dubai — what counts as rubbish, what's excluded, and how the collection process works from booking to pickup.",
+    image: {
+      src: "/images/blog/rubbish-removal-dubai.webp",
+      alt: "A large black rubbish bag ready for collection against a plain wall.",
+    },
+    relatedSlugs: ["garbage-removal-dubai", "junk-removal-cost-dubai"],
+    content: [
+      {
+        type: "paragraph",
+        text: "\"Rubbish\" is one of those words that covers almost everything and pins down almost nothing. A broken lamp, a bag of garden clippings, half a tin of leftover paint and a stack of soggy cardboard could all fairly be called rubbish, yet they don't all leave your home the same way. Before you book anything, it helps to know what a rubbish removal service actually takes, what it doesn't, and what happens between your call and the crew driving off with it. That's what this guide sets out to answer.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-counts",
+        text: "What counts as rubbish removal in Dubai",
+      },
+      {
+        type: "paragraph",
+        text: "Rubbish removal, in practice, means clearing general household or light commercial waste that's outgrown your bins — a mix of ordinary discarded items rather than one specific category. It sits apart from single-category services built around one type of item, such as furniture collection, appliance pickup or e-waste recycling. If what you're clearing is mostly mixed and general, rubbish removal is the right call. If it's dominated by one thing — a sofa, a fridge, a pile of rubble — a category-specific service usually gets a better result.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "types",
+        text: "The main types of rubbish a removal service collects",
+      },
+      {
+        type: "paragraph",
+        text: '"Rubbish" is broader than most people assume. In and around Dubai homes, it usually falls into a handful of recognisable groups.',
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "household-mixed",
+        text: "Household and general mixed rubbish",
+      },
+      {
+        type: "paragraph",
+        text: "This is the core of most bookings: bagged waste, old packaging, broken household odds and ends, and general clutter that's built up faster than the bin room can take it. It doesn't need to be sorted into neat categories before a crew arrives — that's part of the job.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "garden-yard",
+        text: "Garden and yard waste",
+      },
+      {
+        type: "paragraph",
+        text: "Villa gardens and terrace planters generate their own kind of rubbish — cut branches, dead plants, soil from repotting, and general trimmings. It's easy to forget this counts as rubbish too, since it doesn't look like household waste, but it's one of the more common reasons villa residents book a collection.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/garden-yard-waste-bag-dubai.webp",
+        alt: "Garden waste and plant trimmings being gathered into a bag for collection.",
+        caption:
+          "Garden clippings and yard trimmings are rubbish too, even if they don't look like typical household waste.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "bulky-non-furniture",
+        text: "Bulky household items that aren't quite furniture",
+      },
+      {
+        type: "paragraph",
+        text: "Not everything bulky is a piece of furniture. Broken shelving units, old exercise equipment, storage crates, curtain rails and similar odds and ends often get lumped in with a general rubbish clearance rather than treated as their own category.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "light-renovation",
+        text: "Light renovation and DIY leftovers",
+      },
+      {
+        type: "paragraph",
+        text: "A small DIY job — repainting a room, swapping out fixtures, a weekend of shelving projects — tends to leave behind offcuts, empty tins, packaging and general debris. In small quantities, this is usually handled as part of a standard rubbish collection rather than a full construction debris removal, which is built for larger-scale renovation and demolition waste.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/diy-renovation-leftover-paint-cans.webp",
+        alt: "Leftover paint cans, a brush and a roller from a home DIY project.",
+        caption:
+          "Small-scale DIY leftovers are usually light enough to go with a standard rubbish collection.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "not-included",
+        text: "What isn't included in standard rubbish removal",
+      },
+      {
+        type: "paragraph",
+        text: "A few things sit outside a typical rubbish booking. Hazardous materials — chemicals, gas canisters, certain batteries — need specialist handling rather than a general collection. Large-scale construction or renovation debris from a full remodel is its own category, usually quoted separately given the volume and weight involved. And electronics, appliances and furniture are often better handled through their dedicated routes, since they follow different disposal and recycling paths than mixed general waste. If you're unsure which bucket your items fall into, it's worth describing them when you enquire rather than guessing.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "process",
+        text: "How the rubbish removal process actually works",
+      },
+      {
+        type: "paragraph",
+        text: "The steps are broadly the same across most providers, even if the details vary:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Enquiry — you describe what needs clearing, ideally with photos and a sense of volume.",
+          "Quote — based on that information, you're given a price and, where needed, a time slot.",
+          "Booking — a collection window is confirmed, along with any access details the crew needs.",
+          "Arrival and assessment — the crew checks the job matches what was described before starting.",
+          "Loading — items are carried out and loaded, with care taken around floors, walls and lifts.",
+          "Sorting and disposal — recyclable material is separated where possible, and the rest taken to proper disposal facilities.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Knowing this sequence in advance makes the actual booking faster, since you already know what information a provider will ask for.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "access-considerations",
+        text: "Access considerations across Dubai homes",
+      },
+      {
+        type: "paragraph",
+        text: "Where you live changes how the visit runs more than what you're getting rid of does. Apartment towers usually mean coordinating a service lift and a set collection window, since crews are working around building management schedules. Villas tend to be simpler on access — a truck can usually pull up directly — but often produce more rubbish per visit once gardens, garages and storerooms are factored in. Either setting works fine; it just helps to mention it when you book.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "preparing",
+        text: "How to prepare before the crew arrives",
+      },
+      {
+        type: "list",
+        items: [
+          "Group everything in one accessible area rather than spread across several rooms.",
+          "Flag anything hazardous or unusual in advance so it can be handled correctly.",
+          "Give a realistic sense of volume so the right vehicle turns up.",
+          "Mention floor, lift access or gate codes if the crew will need them.",
+          "Separate anything you're keeping clearly, so nothing leaves by mistake.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "choosing-a-provider",
+        text: "What separates a good rubbish removal service from a van and a driver",
+      },
+      {
+        type: "paragraph",
+        text: "Anyone with a vehicle can haul rubbish away. What matters is where it ends up and how the job is run — recyclable material genuinely separated rather than binned with everything else, floors and walls protected during loading, and a quote that reflects what you actually described rather than shifting once the crew arrives. Clear communication about timing and access matters just as much as the collection itself.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "Rubbish removal covers more ground than the word suggests — general household waste, garden trimmings, odd bulky items and light DIY leftovers all fall under it, while furniture, appliances, e-waste and major renovation debris usually don't. Once you know which category your clear-out falls into and what the booking process looks like, arranging a collection in Dubai is a straightforward, predictable job rather than a guessing game.",
+      },
+    ],
+    faq: [
+      {
+        q: "What's the difference between rubbish removal and junk removal in Dubai?",
+        a: "In practice, the terms are used interchangeably by most people and providers. Both describe clearing general mixed waste rather than one specific item category. Where a provider draws a distinction, it's usually about scale rather than a strict definition.",
+      },
+      {
+        q: "Can garden or yard waste be included in a rubbish removal booking?",
+        a: "Yes. Branches, plant trimmings and general garden clippings are commonly collected as part of a standard rubbish removal, particularly for villa residents clearing a garden or terrace.",
+      },
+      {
+        q: "What happens to my rubbish after it's collected?",
+        a: "A considered provider separates what can be recycled — plastics, metal, glass — before the remainder goes to proper disposal facilities, rather than sending every load straight to landfill.",
+      },
+      {
+        q: "Do I need to sort or bag my rubbish before the crew arrives?",
+        a: "Not strictly, though bagging loose items and grouping everything in one spot speeds up the visit. Sorting into categories isn't necessary — that's part of what the service handles.",
+      },
+      {
+        q: "Is light renovation or DIY waste included in rubbish removal?",
+        a: "Small quantities usually are — offcuts, empty tins and general debris from a minor DIY job. Larger-scale renovation or demolition waste is typically quoted separately as a construction debris job, given the extra volume and weight.",
       },
     ],
   },
