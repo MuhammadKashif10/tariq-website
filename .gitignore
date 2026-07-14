@@ -31,3 +31,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude agent memory / internal planning docs — not for the repo
+.agents/
+Dubai_Junk_Removal_SEO_Roadmap_v2.pdf

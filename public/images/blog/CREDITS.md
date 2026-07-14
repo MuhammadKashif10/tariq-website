@@ -20,3 +20,7 @@ Sources documented here for traceability.
 | rubbish-removal-dubai.webp | https://www.pexels.com/photo/5994772/ |
 | garden-yard-waste-bag-dubai.webp | https://www.pexels.com/photo/29192615/ |
 | diy-renovation-leftover-paint-cans.webp | https://www.pexels.com/photo/5641684/ |
+| cheap-junk-removal-dubai.webp | https://www.pexels.com/photo/7680736/ |
+| affordable-junk-removal-loading-van.webp | https://www.pexels.com/photo/5025669/ |
+| junk-removal-quote-dubai.webp | https://www.pexels.com/photo/7203850/ |
+| signing-written-junk-removal-quote.webp | https://www.pexels.com/photo/5439434/ |
