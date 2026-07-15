@@ -1237,6 +1237,372 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "residential-junk-removal-dubai",
+    title: "Residential Junk Removal Dubai: How It Works and What It Costs",
+    excerpt:
+      "Not sure what residential junk removal actually covers in Dubai? Here's what's included, how apartments and villas differ, and what to expect from booking to collection.",
+    category: "Guides",
+    publishedAt: "2026-07-15",
+    readingTimeMinutes: 7,
+    tags: ["Residential Junk Removal", "Guides", "Home Clearance", "Dubai"],
+    keywords: [
+      "residential junk removal dubai",
+      "home clearance dubai",
+      "apartment junk removal dubai",
+      "villa junk removal dubai",
+      "junk removal for homes dubai",
+    ],
+    metaTitle: "Residential Junk Removal Dubai: How It Works & Costs",
+    metaDescription:
+      "What residential junk removal actually covers in Dubai, how it differs from commercial jobs, and what shapes the price for apartments and villas alike.",
+    image: {
+      src: "/images/blog/residential-villa-exterior-dubai.webp",
+      alt: "A modern two-storey villa with a driveway and parked car in a Dubai residential community.",
+    },
+    relatedSlugs: ["home-junk-removal-dubai", "junk-removal-cost-dubai", "garbage-removal-dubai"],
+    content: [
+      {
+        type: "paragraph",
+        text: "\"Residential junk removal\" gets used as a catch-all term, but it specifically means clearing unwanted items from somewhere people live — an apartment, villa or townhouse — rather than an office or retail unit. If you're trying to work out whether it's the right service for your situation, or how it's actually delivered across Dubai's mix of towers and villa communities, this guide covers what's included, how the process runs, and what shapes the price.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-counts",
+        text: "What residential junk removal actually covers",
+      },
+      {
+        type: "paragraph",
+        text: "Residential junk removal covers clearing unwanted items from a home rather than a business premises — everything from a single bulky item to a full apartment or villa clear-out. It sits apart from commercial junk removal, which serves offices, retail units and other business premises, because homes bring different access points, timing expectations and item mixes.",
+      },
+      {
+        type: "list",
+        items: [
+          "A single item collected on its own, such as an old sofa or mattress.",
+          "Room-by-room decluttering, where only part of a home needs clearing.",
+          "A full move-out or move-in clear-out covering an entire unit.",
+          "Leftover materials and packaging after a renovation.",
+          "Household items that have simply built up over years and need clearing in one go.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "whats-included",
+        text: "What's typically included, and what isn't",
+      },
+      {
+        type: "paragraph",
+        text: "A residential job usually covers furniture, appliances, general household items, garden or balcony waste, and boxed or bagged belongings. Because it's priced by volume or by item rather than from a fixed menu, almost anything found in a normal home can be part of the same visit.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "not-included",
+        text: "Items that need a different route",
+      },
+      {
+        type: "paragraph",
+        text: "Hazardous materials — paint, chemicals, gas canisters, batteries — and construction or renovation debris in bulk are usually handled separately from routine residential junk, since they need their own disposal channels. If your clear-out is mostly this kind of material rather than everyday household items, it's worth flagging that up front so the right vehicle and process are arranged.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "settings",
+        text: "Apartments, villas and townhouses: how the setting changes the job",
+      },
+      {
+        type: "paragraph",
+        text: 'Dubai\'s housing mix means "residential" covers genuinely different physical settings, and each brings its own logistics.',
+      },
+      {
+        type: "list",
+        items: [
+          "Apartment towers, such as those in Dubai Marina or JLT, usually involve a service lift, a designated bin room or loading bay, and a timing window agreed with building management.",
+          "Villa communities, such as Arabian Ranches or Dubai Hills, generally offer easier direct vehicle access, but can involve larger volumes once gardens, storerooms and maid's rooms are included.",
+          "Townhouses often sit between the two — private access like a villa, but less internal storage, so items tend to build up in shared hallways or under stairs the way they would in an apartment.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/apartment-tower-residential-dubai.webp",
+        alt: "Two residential apartment towers with balconies viewed from below against a blue sky.",
+        caption:
+          "Apartment towers usually mean lift bookings and building access rules rather than a simple driveway pickup.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "process",
+        text: "How a residential job runs from start to finish",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Describe the job — photos or a short video, your floor, and whether there's lift access.",
+          "Get a firm quote based on what you've described.",
+          "Agree a time slot, including same-day if a crew is free.",
+          "The crew arrives, confirms the items with you, and loads directly from your unit or driveway.",
+          "Items are sorted for donation, recycling or proper disposal once collected.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "cost",
+        text: "What affects the cost of a residential job",
+      },
+      {
+        type: "paragraph",
+        text: "The same handful of factors apply across every residential job: how much you have, what kind of items they are, how easy they are to reach, and where they end up afterward. More volume, harder access and heavier or bulkier items generally push the price up, while flexible timing and combining everything into one visit helps keep it down. The full breakdown of how these factors combine into an actual figure is worth reading separately if you want to budget precisely — the short version here is that residential pricing follows the same logic whether you're in a studio apartment or a five-bedroom villa.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "when-you-need-it",
+        text: "Common reasons residential junk removal gets booked",
+      },
+      {
+        type: "list",
+        items: [
+          "Clearing leftover materials and packaging after a renovation.",
+          "A seasonal declutter that's grown beyond what the bins can absorb.",
+          "Getting a home ready before or after hosting guests.",
+          "Sorting through inherited or accumulated furniture and belongings.",
+          "Settling into a new home and clearing out what didn't make the move.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "preparing",
+        text: "Getting ready for a residential collection",
+      },
+      {
+        type: "list",
+        items: [
+          "Group everything into one accessible spot rather than spread across the home.",
+          "Note your floor, lift access and the nearest loading point when you request a quote.",
+          "Flag any hazardous items separately so they're handled correctly.",
+          "Dismantle flat-pack or bolted furniture where you can, or mention it so the crew comes prepared.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/loading-van-residential-area-dubai.webp",
+        alt: "A man loading cardboard boxes into the back of a van outside a residential house.",
+        caption:
+          "Collection usually happens straight from your driveway, unit door or building loading bay.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "Residential junk removal in Dubai is built to flex around whatever a home actually needs — a single item, a room, or an entire property — rather than following a fixed script. What changes from job to job is the setting and the volume, not whether the service applies. Knowing what's typically included, how apartments and villas differ in practice, and what genuinely affects the price puts you in a solid position to book with confidence.",
+      },
+    ],
+    faq: [
+      {
+        q: "What's the difference between residential and commercial junk removal in Dubai?",
+        a: "Residential covers homes — apartments, villas and townhouses — while commercial covers offices, shops and other business premises. The two are priced and scheduled differently because of the different access arrangements and item types involved.",
+      },
+      {
+        q: "Can residential junk removal handle a single item as well as a full clear-out?",
+        a: "Yes — the same service covers everything from one bulky item to a complete apartment or villa clear-out. It's simply quoted differently depending on the scale of the job.",
+      },
+      {
+        q: "Does residential junk removal include garden or balcony waste?",
+        a: "Generally yes, alongside furniture, appliances and general household items, since these are all things a home naturally accumulates. It's worth mentioning when you request a quote so the crew arrives prepared for it.",
+      },
+      {
+        q: "Do I need to be present during a residential collection?",
+        a: "Being present, or arranging access through a nominated person or building management, is generally expected, since the crew needs to confirm what's actually being removed before loading it.",
+      },
+      {
+        q: "How far in advance should I book residential junk removal?",
+        a: "Same-day booking is commonly available if a crew and vehicle are free, but booking a day or two ahead gives more flexibility on timing, especially for larger jobs.",
+      },
+    ],
+  },
+  {
+    slug: "home-junk-removal-dubai",
+    title: "Home Junk Removal Dubai: What to Expect When You Book a Collection",
+    excerpt:
+      "From an overflowing garage to a storeroom you've been avoiding, here's how home junk removal in Dubai actually works — from booking to the crew leaving your space clear.",
+    category: "Tips & Advice",
+    publishedAt: "2026-07-15",
+    readingTimeMinutes: 7,
+    tags: ["Home Junk Removal", "Tips & Advice", "Decluttering", "Dubai"],
+    keywords: [
+      "home junk removal dubai",
+      "book junk removal dubai",
+      "household junk collection dubai",
+      "junk removal booking dubai",
+      "declutter home dubai",
+    ],
+    metaTitle: "Home Junk Removal Dubai: What to Expect on the Day",
+    metaDescription:
+      "A practical look at booking home junk removal in Dubai — the signs it's time, how a visit actually runs, and how to get your home ready beforehand.",
+    image: {
+      src: "/images/blog/home-garage-clutter-dubai.webp",
+      alt: "A home garage overflowing with household items, boxes and clutter stacked against the walls.",
+    },
+    relatedSlugs: [
+      "residential-junk-removal-dubai",
+      "cheap-junk-removal-dubai",
+      "furniture-disposal-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Junk in a home rarely arrives all at once. It's a garage that slowly fills up, a storeroom nobody opens, a balcony stacked with things nobody uses anymore. At some point it crosses from manageable into something that needs sorting out properly, and that's usually when people start looking into home junk removal in Dubai. This guide walks through the signs it's time, what actually happens once you book, and how to get your home ready beforehand.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "signs",
+        text: "Signs it's time to book a home junk removal",
+      },
+      {
+        type: "list",
+        items: [
+          "A storeroom or maid's room you've quietly stopped opening.",
+          "A garage taken over by things you no longer use.",
+          "A balcony stacked with boxes, broken items or old equipment.",
+          "Furniture you've already replaced but never got round to removing.",
+          "Renovation leftovers still sitting in a corner months later.",
+          "A move coming up, with no time to deal with everything piece by piece.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "the-visit",
+        text: "What actually happens when the crew arrives",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "The crew confirms with you exactly what's being removed.",
+          "A quick walkthrough to check for anything else you'd like gone.",
+          "Loading happens directly from your home — no need to carry things outside yourself.",
+          "Any furniture that needs dismantling is taken apart on site.",
+          "The space is left tidy once everything's been cleared out.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "getting-ready",
+        text: "Getting your home ready before the crew arrives",
+      },
+      {
+        type: "paragraph",
+        text: "A little preparation makes the visit faster and keeps the price more predictable.",
+      },
+      {
+        type: "list",
+        items: [
+          "Empty drawers, shelves or any storage compartments in items being removed.",
+          "Group everything into one accessible spot — a hallway, garage or storeroom works well.",
+          "Set aside anything you want to keep, so it's obviously separate from what's going.",
+          "Note your floor, building access and whether a service lift needs booking in advance.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/sorting-boxes-keep-donate-trash.webp",
+        alt: "Cardboard boxes labelled keep, donate and trash filled with clothes and household items.",
+        caption:
+          "A simple keep, donate or trash sort before the crew arrives speeds up the whole visit.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "sorting-required",
+        text: "Do you need to sort everything yourself first?",
+      },
+      {
+        type: "paragraph",
+        text: "No — a home junk removal visit is built to handle mixed loads exactly as they are, so nothing has to be pre-sorted. That said, setting aside anything you want to keep, donate or sell before the crew arrives genuinely helps: it reduces the volume that actually needs removing, which can bring the price down, and it means usable items get a second life instead of leaving with everything else.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "common-spaces",
+        text: "The home spaces that build up junk fastest",
+      },
+      {
+        type: "paragraph",
+        text: "Some parts of a home fill up faster than others simply because they're used for storage rather than daily living.",
+      },
+      {
+        type: "list",
+        items: [
+          "Garages, which absorb everything from old furniture to tools and equipment.",
+          "Storerooms and maid's rooms, often the last space anyone gets round to clearing.",
+          "Balconies, where broken or unused items tend to sit out of sight.",
+          "Kids' rooms, where outgrown toys and furniture build up quickly.",
+          "Kitchens, once an old appliance has been replaced but not yet removed.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/decluttered-hallway-after-clearance-dubai.webp",
+        alt: "A tidy, empty hallway with a glass door and wooden flooring after a home has been cleared.",
+        caption: "The payoff: a storeroom, garage or hallway you can actually use again.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "how-long",
+        text: "How long a home visit takes",
+      },
+      {
+        type: "paragraph",
+        text: "It depends almost entirely on volume. A single room or a handful of items is usually finished quickly, while a full home clear-out naturally takes longer, since it depends on how much there is, how easy it is to access, and how much needs dismantling along the way. Either way, the crew works through your home in one visit rather than spreading the job across multiple trips.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "Home junk removal in Dubai exists for exactly the situations that build up quietly — a garage, a storeroom, a balcony you've stopped noticing. Booking is straightforward, sorting beforehand is optional but helpful, and the visit itself is built around clearing your space in one go rather than asking you to manage it piece by piece. The hardest part is usually just deciding it's time.",
+      },
+    ],
+    faq: [
+      {
+        q: "Do I need to throw everything away before the crew arrives?",
+        a: "No — a home junk removal visit is built to handle mixed loads exactly as they are. Sorting beforehand just makes the visit quicker and can reduce the volume that needs removing.",
+      },
+      {
+        q: "Which room in the house usually needs a home junk removal service most?",
+        a: "Garages, storerooms and maid's rooms tend to build up fastest since they're used for storage rather than daily living, but any space can qualify — a bedroom full of items you no longer use is just as valid a reason to book.",
+      },
+      {
+        q: "Is there a minimum amount of junk needed to book a home visit?",
+        a: "No — home junk removal covers everything from a single item to a full property clear-out. There's no minimum volume, though very small jobs may carry a flat minimum charge rather than being priced by volume.",
+      },
+      {
+        q: "What happens to items that are still in good condition?",
+        a: "Anything usable is typically set aside for donation or resale rather than thrown out with the rest, so it's worth mentioning if you have pieces you'd like considered for that route specifically.",
+      },
+      {
+        q: "Can home junk removal be booked around a busy household schedule?",
+        a: "Yes — most providers offer a range of time slots including evenings and weekends, so a visit can usually be arranged around school runs, work hours or other household routines rather than requiring you to be free all day.",
+      },
+    ],
+  },
 ];
 
 // -----------------------------------------------------------------------------

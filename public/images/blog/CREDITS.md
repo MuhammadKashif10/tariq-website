@@ -24,3 +24,9 @@ Sources documented here for traceability.
 | affordable-junk-removal-loading-van.webp | https://www.pexels.com/photo/5025669/ |
 | junk-removal-quote-dubai.webp | https://www.pexels.com/photo/7203850/ |
 | signing-written-junk-removal-quote.webp | https://www.pexels.com/photo/5439434/ |
+| residential-villa-exterior-dubai.webp | https://www.pexels.com/photo/34188580/ |
+| apartment-tower-residential-dubai.webp | https://www.pexels.com/photo/33244441/ |
+| loading-van-residential-area-dubai.webp | https://www.pexels.com/photo/5025498/ |
+| home-garage-clutter-dubai.webp | https://www.pexels.com/photo/15828484/ |
+| sorting-boxes-keep-donate-trash.webp | https://www.pexels.com/photo/8581372/ |
+| decluttered-hallway-after-clearance-dubai.webp | https://www.pexels.com/photo/7031619/ |
