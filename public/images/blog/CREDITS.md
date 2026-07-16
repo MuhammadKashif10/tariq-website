@@ -30,3 +30,9 @@ Sources documented here for traceability.
 | home-garage-clutter-dubai.webp | https://www.pexels.com/photo/15828484/ |
 | sorting-boxes-keep-donate-trash.webp | https://www.pexels.com/photo/8581372/ |
 | decluttered-hallway-after-clearance-dubai.webp | https://www.pexels.com/photo/7031619/ |
+| villa-exterior-driveway-dubai.webp | https://www.pexels.com/photo/31215770/ |
+| villa-garage-storeroom-dubai.webp | https://www.pexels.com/photo/11017880/ |
+| loading-sofa-into-van-dubai.webp | https://www.pexels.com/photo/7464403/ |
+| apartment-balcony-facade-dubai.webp | https://www.pexels.com/photo/26838201/ |
+| apartment-building-lift-lobby-dubai.webp | https://www.pexels.com/photo/7031907/ |
+| carrying-moving-boxes-down-stairs.webp | https://www.pexels.com/photo/4246086/ |
