@@ -1978,6 +1978,414 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "bulky-waste-collection-dubai",
+    title: "Bulky Waste Collection Dubai: What Counts and How It Works",
+    excerpt:
+      "A wardrobe, a fridge or a three-seater sofa was never going to fit in a communal bin. Bulky waste collection is the service that exists for exactly those items — here's what qualifies and how a pickup runs.",
+    category: "Guides",
+    publishedAt: "2026-07-17",
+    readingTimeMinutes: 7,
+    tags: ["Bulky Waste", "Guides", "Furniture Removal", "Dubai"],
+    keywords: [
+      "bulky waste collection dubai",
+      "bulky item pickup dubai",
+      "bulky waste disposal dubai",
+      "large item collection dubai",
+      "oversized furniture removal dubai",
+    ],
+    metaTitle: "Bulky Waste Collection Dubai: What Counts and How It Works",
+    metaDescription:
+      "What counts as bulky waste in Dubai, how collection works for items too big for the communal bins, what shapes the price, and where sofas, mattresses and appliances end up.",
+    image: {
+      src: "/images/blog/bulky-waste-collection-dubai.webp",
+      alt: "A man sliding a large white cabinet into the back of an open van parked outside a building.",
+    },
+    relatedSlugs: [
+      "apartment-junk-removal-dubai",
+      "furniture-disposal-dubai",
+      "junk-removal-cost-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Some things are simply the wrong shape for a bin. A three-seater sofa, a double wardrobe, an old fridge that finally gave up — none of it fits down a rubbish chute or into a communal container, and leaving it beside the bins usually just moves the problem rather than solving it. Bulky waste collection in Dubai is the service built for those items: one booking, a crew with enough hands to lift the thing, and a vehicle it actually fits in. This guide covers what counts as bulky, how a collection runs, and what shapes the price.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-counts",
+        text: "What counts as bulky waste?",
+      },
+      {
+        type: "paragraph",
+        text: "Bulky waste is any household item too large, heavy or awkward for normal bin collection — typically anything that needs two people to move or won't fit through a standard doorway in one piece. The category is defined by handling difficulty rather than by weight alone.",
+      },
+      {
+        type: "list",
+        items: [
+          "Sofas, armchairs, mattresses and bed frames.",
+          "Wardrobes, dressers, dining tables and bookshelves.",
+          "Fridges, washing machines, ovens and other large appliances.",
+          "Televisions, exercise equipment and children's outdoor play sets.",
+          "Rolled carpets, large mirrors and oversized suitcases.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A useful test: if you'd have to ask a neighbour for help carrying it, it's bulky. Small bags of general household rubbish aren't — those belong with your building's ordinary waste collection.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "why-not-bins",
+        text: "Why bulky items can't just go beside the bins",
+      },
+      {
+        type: "paragraph",
+        text: "Leaving a mattress or a broken wardrobe next to a communal bin rarely works, and it tends to create three problems at once. Building management usually treats oversized items left in shared areas as an obstruction, since they block access to the bins for everyone else and for the crews servicing them.",
+      },
+      {
+        type: "list",
+        items: [
+          "Standard bin collection is built around containers, not loose furniture — a sofa doesn't go into the truck's mechanism.",
+          "Items left in a bin area can sit for days, in the sun, until someone specifically arranges to take them.",
+          "Many buildings hold the resident responsible for clearing what they left, sometimes with a management follow-up.",
+          "Bulky items in a shared corridor or bin room are a genuine fire-exit and access issue, not just an eyesore.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/wrapped-bulky-item-lifting-straps.webp",
+        alt: "Four workers in black t-shirts using orange lifting straps to manoeuvre a large plastic-wrapped mattress inside a home with a mezzanine above.",
+        caption:
+          "The defining feature of bulky waste is handling: enough hands, straps, and a route planned before anything is lifted.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "how-it-works",
+        text: "How bulky waste collection works",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Describe the item — what it is, roughly how big, and which floor it's on.",
+          "Send a photo if you can, since a picture settles size and access questions faster than a description.",
+          "Get a price for that specific item or group of items before booking.",
+          "Agree a time slot, and arrange lift access with your building if the item is coming down from a tower floor.",
+          "The crew carries it out, loads it, and takes it away for donation, recycling or disposal depending on its condition.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        id: "access-route",
+        text: "The route out matters more than the item",
+      },
+      {
+        type: "paragraph",
+        text: "Most of the work in a bulky collection is the journey from where the item sits to where the vehicle is parked. A wardrobe in a ground-floor villa room with a driveway outside is a short job. The same wardrobe on the fourteenth floor of a Marina tower involves a service lift booking, a corridor, a lobby and a loading bay — which is why providers ask about your floor and building before quoting rather than pricing off the item alone.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/carrying-sofa-down-stairwell.webp",
+        alt: "Two workers in overalls carrying a green sofa down a narrow indoor stairwell, viewed from the landing above.",
+        caption:
+          "When a lift is unavailable or too small, a bulky item comes down the stairs — slower, and priced accordingly.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "price",
+        text: "What shapes the price of a bulky item pickup",
+      },
+      {
+        type: "paragraph",
+        text: "Bulky collection is usually priced per item or per small group of items rather than by the truckload, which makes it different from a full clear-out. Four things move the figure:",
+      },
+      {
+        type: "list",
+        items: [
+          "Size and weight — a two-seater sofa and a corner suite are not the same job.",
+          "Access — floor level, lift availability and how far the vehicle can park from the door.",
+          "Handling — whether the item needs dismantling to get through a doorway or stairwell.",
+          "Quantity — a second and third item usually cost less each than the first, since the crew and vehicle are already there.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "That last point is worth planning around. If you know the mattress is going next month anyway, sending it out with the wardrobe today is almost always cheaper than two separate visits.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "where-it-goes",
+        text: "Where bulky waste actually ends up",
+      },
+      {
+        type: "paragraph",
+        text: "Bulky waste disposal isn't a single destination — what happens next depends on the item's condition. A sofa in good repair and a sofa with a broken frame leave your home the same way and then go to very different places.",
+      },
+      {
+        type: "list",
+        items: [
+          "Usable furniture and working appliances are set aside for donation or resale wherever there's a genuine second life in them.",
+          "Metal, wood, cardboard and certain plastics are separated for recycling.",
+          "Fridges and air conditioners need handling appropriate to their coolant, so they're kept separate from general loads.",
+          "What's genuinely beyond use goes to proper disposal rather than being left somewhere convenient.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "getting-ready",
+        text: "Getting a bulky item ready",
+      },
+      {
+        type: "list",
+        items: [
+          "Empty it — drawers, wardrobes and fridges are much lighter and safer to move once cleared out.",
+          "Defrost a fridge or freezer the night before, so it isn't leaking on the way through your hallway.",
+          "Measure the doorway if you're unsure the item will fit through in one piece, and mention it when you book.",
+          "Clear the route — a corridor with shoes, plants and boxes in it slows a two-person carry considerably.",
+          "Say upfront if the item is on an upper floor with no lift, so the crew arrives with the right number of people.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "Bulky waste collection exists because the ordinary waste system was never designed for furniture. Once you know that the item's size matters less than the route it has to travel, the whole thing gets easier to plan: measure the awkward doorway, empty the drawers, group the items you already know are going, and describe the floor and lift situation honestly when you ask for a price. That's genuinely most of it — the lifting is somebody else's problem.",
+      },
+    ],
+    faq: [
+      {
+        q: "What size does an item need to be before it counts as bulky waste?",
+        a: "There's no universal measurement — the practical line is whether the item needs two people to move it or won't fit through a standard doorway intact. Sofas, wardrobes, mattresses and large appliances are almost always treated as bulky; a single chair usually isn't.",
+      },
+      {
+        q: "Is bulky waste collection the same as bulky waste disposal?",
+        a: "They're two halves of the same job. Collection is the part you see — the crew carrying the item out and loading it. Disposal is what happens afterwards, where the item is sorted for donation, recycling or proper disposal based on its condition.",
+      },
+      {
+        q: "How many people does a bulky item collection usually need?",
+        a: "Two is typical for a sofa, wardrobe or large appliance. Very heavy or awkward items, or anything coming down stairs, can need three or four plus lifting straps, which is why providers ask about the floor and access before confirming a price.",
+      },
+      {
+        q: "What happens if a bulky item won't fit through the door or into the lift?",
+        a: "It gets taken apart enough to move, or it goes down the stairs. Wardrobes, bed frames and modular sofas are usually the ones that need this. Mentioning a tight doorway or a small lift when you book means the crew brings tools and allows the extra time.",
+      },
+      {
+        q: "Can several bulky items be collected in one visit, or is each priced separately?",
+        a: "Several can go in one visit, and it's normally the cheaper way to do it. Pricing tends to be per item, but the rate per item usually drops as the count rises, because the crew and vehicle are already at your door.",
+      },
+    ],
+  },
+  {
+    slug: "full-house-junk-removal-dubai",
+    title: "Full House Junk Removal Dubai: Clearing a Whole Home",
+    excerpt:
+      "Clearing an entire home is a volume job, not a room job — and it's priced that way. Here's how a full house junk removal runs in Dubai, and how it differs from a house clearance.",
+    category: "Guides",
+    publishedAt: "2026-07-17",
+    readingTimeMinutes: 7,
+    tags: ["Full House Clearance", "Guides", "Home Clearance", "Dubai"],
+    keywords: [
+      "full house junk removal dubai",
+      "whole house junk removal dubai",
+      "full home clear out dubai",
+      "end of tenancy junk removal dubai",
+      "multi room junk removal dubai",
+    ],
+    metaTitle: "Full House Junk Removal Dubai: Clearing a Whole Home",
+    metaDescription:
+      "How full house junk removal works in Dubai — volume-based pricing, what a whole-home clear-out involves room by room, and how it differs from a house clearance service.",
+    image: {
+      src: "/images/blog/full-house-junk-removal-dubai.webp",
+      alt: "Cardboard boxes labelled by room beside a dust-sheeted armchair and a suitcase in a bright, half-emptied living room.",
+    },
+    relatedSlugs: [
+      "bulky-waste-collection-dubai",
+      "home-junk-removal-dubai",
+      "residential-junk-removal-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Full house junk removal in Dubai is the removal of everything you don't want from an entire property in one go, priced by the volume it fills in the truck rather than by the room. It's worth being clear about what it isn't: this is haulage of unwanted items, not a house clearance service that sorts through a property's contents and identifies valuables on your behalf. You decide what goes; the crew moves the volume. This guide covers when a whole-home job makes sense, how the pricing logic works, and what actually happens on the day.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-it-means",
+        text: "What full house junk removal actually means",
+      },
+      {
+        type: "paragraph",
+        text: "A full house job clears the unwanted contents of every room in a single visit — bedrooms, majlis, kitchen, storeroom, balcony and whatever has accumulated in between. The distinction from a room-by-room booking is scale, and scale changes the economics. One large vehicle and a crew working through a property for several hours is a fundamentally different job from a crew stopping by for a sofa.",
+      },
+      {
+        type: "list",
+        items: [
+          "Everything unwanted goes in one visit, rather than across several separate bookings.",
+          "Pricing follows the volume loaded, not a count of individual items.",
+          "The crew size is set to the property, so a four-bedroom villa gets more hands than a one-bed flat.",
+          "You decide what leaves and what stays — nothing is removed without you confirming it.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "when-it-makes-sense",
+        text: "When a whole-home clear-out makes sense",
+      },
+      {
+        type: "paragraph",
+        text: "Full house jobs cluster around the moments when a property changes hands or changes purpose. In Dubai, most of them fall into one of these situations:",
+      },
+      {
+        type: "list",
+        items: [
+          "End of tenancy, where a unit has to be handed back empty and on a fixed date.",
+          "Leaving the country, when shipping everything home costs more than the contents are worth.",
+          "Taking over a property that came with someone else's leftovers still in it.",
+          "A renovation that's gutting several rooms at once.",
+          "Downsizing from a villa to an apartment, where a good share of the furniture simply won't fit.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/storeroom-accumulated-household-junk.webp",
+        alt: "A cluttered storeroom with blue rubbish bags, flat-packed boxes, a bar stool and an appliance carton stacked against a bare wall.",
+        caption:
+          "The storeroom is usually where a full house job finds its surprises — and where the volume estimate moves.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "pricing",
+        text: "How volume-based pricing works",
+      },
+      {
+        type: "paragraph",
+        text: "A full house clear-out is quoted on how much space your items take up in the vehicle, not on how many things there are. Two hundred paperbacks and one wardrobe might occupy similar space, so they cost broadly similar amounts to take away, even though one is a single item and the other is hundreds.",
+      },
+      {
+        type: "list",
+        items: [
+          "Volume is the main driver — a half-load and a full load are different prices.",
+          "Access still counts, since a tower unit with a lift booking takes longer to empty than a villa with a driveway.",
+          "Item type matters at the margins, because appliances and mattresses need separate handling from general household goods.",
+          "Labour time scales with the property, as more rooms and more floors mean more carrying.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The practical consequence is that clearing a whole home at once is almost always better value per item than clearing it in stages. The vehicle, the crew and the trip are being paid for either way, so filling them once beats paying for them three times.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "how-it-runs",
+        text: "How a full house clear-out runs",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Walk through the property, room by room, and decide what's leaving.",
+          "Share photos or a video of each room, or arrange an on-site look for a larger property.",
+          "Get a quote based on the estimated volume and the access situation.",
+          "Book the slot, working backwards from any handover or flight date you're tied to.",
+          "Arrange lift access or community gate entry, depending on the building.",
+          "The crew clears room by room, confirming with you as they go, and loads directly to the vehicle.",
+          "Items are sorted afterwards for donation, recycling or disposal.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/whole-home-contents-boxed-up.webp",
+        alt: "Dozens of cardboard boxes of different sizes stacked and scattered across the bare floor of an empty room.",
+        caption:
+          "Whole-home jobs are quoted on the space the contents fill, which is why photos of every room matter more than an item list.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-takes-longest",
+        text: "The rooms that take the longest",
+      },
+      {
+        type: "paragraph",
+        text: "The estimate usually holds or slips based on a few specific spaces rather than the bedrooms everyone thinks of first.",
+      },
+      {
+        type: "list",
+        items: [
+          "Storerooms and maid's rooms, which tend to hold years of things nobody has looked at.",
+          "Kitchens, where a lot of small, dense, awkward items add up to more volume than expected.",
+          "Balconies and terraces, where sun-damaged outdoor furniture is bulkier than it looks.",
+          "Garages in villas, which can rival the rest of the property combined.",
+          "Wardrobes, since clothes compress in a cupboard but expand considerably once bagged.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "getting-ready",
+        text: "Getting ready for a full house collection",
+      },
+      {
+        type: "list",
+        items: [
+          "Separate anything staying into one room and say so clearly — this is the single biggest source of confusion on a whole-home job.",
+          "Check every drawer, cupboard and wardrobe for documents, jewellery and cash before the day.",
+          "Photograph every room when you request the quote, including the storeroom and balcony.",
+          "Flag hazardous items such as paint, chemicals and gas canisters separately.",
+          "Book lift access early if you're in a tower, since a whole-home job needs a long window rather than a quick slot.",
+          "Give yourself a buffer before a handover date rather than booking for the final morning.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "bottom-line",
+        text: "The bottom line",
+      },
+      {
+        type: "paragraph",
+        text: "A full house clear-out is really a volume estimate and an access plan wearing a bigger hat. Get the volume roughly right by photographing every room — including the ones you'd rather not — be honest about the lift and the parking, and mark what's staying before anyone arrives. Do that, and clearing an entire home turns into a single long afternoon rather than the drawn-out ordeal it tends to become when it's tackled a carload at a time.",
+      },
+    ],
+    faq: [
+      {
+        q: "What's the difference between full house junk removal and house clearance in Dubai?",
+        a: "Full house junk removal is volume-based haulage: you decide what's unwanted, and a crew removes it and takes it away. A house clearance service goes further, working through a property's contents and identifying items of value as part of the job. If you already know what's going, junk removal is the more direct and usually cheaper route.",
+      },
+      {
+        q: "How long does a full house clear-out take, and can it be done in one visit?",
+        a: "Most homes are cleared in a single visit. An apartment often takes a few hours, while a large villa with a garage and storeroom can run most of a day. The realistic limit is vehicle capacity — if the contents exceed one load, the crew makes a second trip rather than splitting it across days.",
+      },
+      {
+        q: "Is clearing a whole home at once cheaper than booking room by room?",
+        a: "Per item, yes, and usually by a wide margin. The vehicle, the crew and the journey are the bulk of the cost, and a single visit pays for them once instead of three or four times.",
+      },
+      {
+        q: "Can a full house clear-out be arranged around a tenancy handover date?",
+        a: "Yes, and it's one of the most common reasons people book one. Give the date when you request the quote, and aim for a day or two before handover rather than the morning of — that leaves room for cleaning and for anything the walkthrough turns up.",
+      },
+      {
+        q: "What if some rooms are already empty when the crew arrives?",
+        a: "That's fine and it works in your favour, since the price follows the volume actually loaded. Mention it when you request the quote so the estimate reflects the real contents rather than a full property.",
+      },
+    ],
+  },
 ];
 
 // -----------------------------------------------------------------------------

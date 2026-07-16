@@ -36,3 +36,9 @@ Sources documented here for traceability.
 | apartment-balcony-facade-dubai.webp | https://www.pexels.com/photo/26838201/ |
 | apartment-building-lift-lobby-dubai.webp | https://www.pexels.com/photo/7031907/ |
 | carrying-moving-boxes-down-stairs.webp | https://www.pexels.com/photo/4246086/ |
+| bulky-waste-collection-dubai.webp | https://www.pexels.com/photo/5933476/ |
+| wrapped-bulky-item-lifting-straps.webp | https://www.pexels.com/photo/20706508/ |
+| carrying-sofa-down-stairwell.webp | https://www.pexels.com/photo/7464373/ |
+| full-house-junk-removal-dubai.webp | https://www.pexels.com/photo/4246119/ |
+| storeroom-accumulated-household-junk.webp | https://www.pexels.com/photo/18082438/ |
+| whole-home-contents-boxed-up.webp | https://www.pexels.com/photo/7203775/ |
