@@ -42,3 +42,9 @@ Sources documented here for traceability.
 | full-house-junk-removal-dubai.webp | https://www.pexels.com/photo/4246119/ |
 | storeroom-accumulated-household-junk.webp | https://www.pexels.com/photo/18082438/ |
 | whole-home-contents-boxed-up.webp | https://www.pexels.com/photo/7203775/ |
+| junk-removal-price-per-truck-load-dubai.webp | https://www.pexels.com/photo/6407553/ |
+| part-loaded-van-residential-street.webp | https://www.pexels.com/photo/5025659/ |
+| two-workers-carrying-green-sofa.webp | https://www.pexels.com/photo/7464662/ |
+| waste-skip-container-outside-building.webp | https://www.pexels.com/photo/33842119/ |
+| man-carrying-cabinet-along-street.webp | https://www.pexels.com/photo/35465128/ |
+| home-renovation-debris-buckets.webp | https://www.pexels.com/photo/15798781/ |
