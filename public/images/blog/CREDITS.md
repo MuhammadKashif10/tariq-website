@@ -48,3 +48,9 @@ Sources documented here for traceability.
 | waste-skip-container-outside-building.webp | https://www.pexels.com/photo/33842119/ |
 | man-carrying-cabinet-along-street.webp | https://www.pexels.com/photo/35465128/ |
 | home-renovation-debris-buckets.webp | https://www.pexels.com/photo/15798781/ |
+| junk-removal-company-checklist-van.webp | https://www.pexels.com/photo/6169181/ |
+| calling-junk-removal-companies-for-quotes.webp | https://www.pexels.com/photo/5387286/ |
+| worker-carrying-armchair-out-of-room.webp | https://www.pexels.com/photo/7464224/ |
+| weekend-home-clear-out-furniture.webp | https://www.pexels.com/photo/7218595/ |
+| overflowing-wardrobe-clothes-clutter.webp | https://www.pexels.com/photo/8454347/ |
+| sorting-belongings-into-boxes-before-collection.webp | https://www.pexels.com/photo/7217835/ |
