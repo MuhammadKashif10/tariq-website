@@ -54,3 +54,9 @@ Sources documented here for traceability.
 | weekend-home-clear-out-furniture.webp | https://www.pexels.com/photo/7218595/ |
 | overflowing-wardrobe-clothes-clutter.webp | https://www.pexels.com/photo/8454347/ |
 | sorting-belongings-into-boxes-before-collection.webp | https://www.pexels.com/photo/7217835/ |
+| urgent-clearance-pile-awaiting-collection.webp | https://www.pexels.com/photo/13855647/ |
+| room-stripped-mid-renovation.webp | https://www.pexels.com/photo/36035072/ |
+| pile-of-broken-furniture-awaiting-disposal.webp | https://www.pexels.com/photo/9714795/ |
+| loading-bulky-boards-onto-open-truck.webp | https://www.pexels.com/photo/15432186/ |
+| inside-van-cargo-bay-stacked-boxes.webp | https://www.pexels.com/photo/7843987/ |
+| old-air-conditioner-units-stacked-for-disposal.webp | https://www.pexels.com/photo/11229452/ |
