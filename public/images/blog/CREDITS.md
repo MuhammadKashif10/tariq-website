@@ -60,3 +60,9 @@ Sources documented here for traceability.
 | loading-bulky-boards-onto-open-truck.webp | https://www.pexels.com/photo/15432186/ |
 | inside-van-cargo-bay-stacked-boxes.webp | https://www.pexels.com/photo/7843987/ |
 | old-air-conditioner-units-stacked-for-disposal.webp | https://www.pexels.com/photo/11229452/ |
+| one-worker-carrying-single-sofa.webp | https://www.pexels.com/photo/7464722/ |
+| carrying-single-chair-with-cushions.webp | https://www.pexels.com/photo/7217754/ |
+| lifting-wrapped-sofa-in-empty-room.webp | https://www.pexels.com/photo/7218130/ |
+| cleared-home-garage-with-shelving.webp | https://www.pexels.com/photo/17181949/ |
+| stacked-old-car-tyres-for-disposal.webp | https://www.pexels.com/photo/1301410/ |
+| used-aerosol-spray-cans-for-disposal.webp | https://www.pexels.com/photo/15818563/ |
