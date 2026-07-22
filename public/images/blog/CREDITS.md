@@ -66,3 +66,9 @@ Sources documented here for traceability.
 | cleared-home-garage-with-shelving.webp | https://www.pexels.com/photo/17181949/ |
 | stacked-old-car-tyres-for-disposal.webp | https://www.pexels.com/photo/1301410/ |
 | used-aerosol-spray-cans-for-disposal.webp | https://www.pexels.com/photo/15818563/ |
+| booking-junk-collection-by-phone.webp | https://www.pexels.com/photo/7857584/ |
+| gathering-items-for-collection-quote.webp | https://www.pexels.com/photo/3791617/ |
+| crew-carrying-boxes-out-of-room.webp | https://www.pexels.com/photo/7464244/ |
+| storage-unit-door-padlock-numbered.webp | https://www.pexels.com/photo/38573375/ |
+| stacked-storage-boxes-unopened.webp | https://www.pexels.com/photo/4568710/ |
+| storage-facility-corridor-hand-truck.webp | https://www.pexels.com/photo/5759147/ |

@@ -4082,6 +4082,447 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "how-to-book-junk-removal-dubai",
+    title: "How to Book Junk Removal in Dubai, Step by Step",
+    excerpt:
+      "Booking a collection is a short sequence, and the order of the steps matters more than most people expect. Here's what happens between your first message and a loaded truck.",
+    category: "Guides",
+    publishedAt: "2026-07-22",
+    readingTimeMinutes: 7,
+    tags: ["Booking", "Process", "Access", "Dubai"],
+    keywords: [
+      "how to book junk removal in dubai",
+      "book junk removal dubai",
+      "junk removal booking process dubai",
+      "arrange junk collection dubai",
+      "schedule junk removal dubai",
+    ],
+    metaTitle: "How to Book Junk Removal in Dubai (Step by Step)",
+    metaDescription:
+      "The booking sequence from first message to loaded truck — what to send, when to involve building management, what a real confirmation includes, and why bookings slip.",
+    image: {
+      src: "/images/blog/booking-junk-collection-by-phone.webp",
+      alt: "A woman standing among stacked cardboard boxes, speaking on a mobile phone while looking at an open laptop.",
+    },
+    relatedSlugs: [
+      "junk-removal-quote-dubai",
+      "how-to-choose-junk-removal-company-dubai",
+      "weekend-junk-removal-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Booking junk removal in Dubai is a short sequence: describe what needs to go, agree a price for it, clear the access with whoever controls the building, and confirm a time slot. Bookings that fall apart nearly always fall apart because those steps happened in the wrong order — usually because the building was asked last, on the morning of the collection. This guide runs through the sequence as it actually happens, what each step needs from you, and where the delays come from.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "booking-sequence",
+        text: "The booking sequence, from first message to loaded truck",
+      },
+      {
+        type: "paragraph",
+        text: "Every collection follows the same six steps, whichever company you use. Your own involvement adds up to a few minutes, spread across a day or two.",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Send a description of the job with photos, taken from far enough back to show the volume rather than individual pieces.",
+          "Receive a quote and check what it covers: the labour, the carry, the disposal, and whether anything on your list is handled separately.",
+          "Tell the company your building type and floor, so the right vehicle and crew size are assigned.",
+          "Get access cleared — a service lift reservation in a tower, or a vehicle registration at the gate in a villa community.",
+          "Confirm a date and an arrival window, and hold that confirmation in writing.",
+          "Stay reachable on the day, because the crew will call from the gate or the loading bay rather than your door.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Steps one and two are quick and largely in your control. Step four is the one that decides whether the booking holds, and it is the step most people leave until last.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-to-have-ready",
+        text: "What to have ready before the first message",
+      },
+      {
+        type: "paragraph",
+        text: "A quote comes back faster, and closer to the final number, when your first message already answers the questions the company would otherwise have to ask.",
+      },
+      {
+        type: "list",
+        items: [
+          "Photos of everything that is going, wide enough to show how much there is.",
+          "The floor you are on, and whether the building has a service lift.",
+          "Anything unusually heavy or awkward — a sofa bed, a marble table top, a wardrobe that will not come apart.",
+          "Anything that needs its own handling, such as a fridge, an air-conditioning unit, paint tins or car tyres.",
+          "Your preferred day, and whether a handover or check-out inspection fixes the deadline.",
+          "Whether the items are already in one place or spread across several rooms.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "That last point changes the crew size more often than the volume does. Twenty items stacked by the door is a different job from twenty items spread across five rooms on two floors.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/gathering-items-for-collection-quote.webp",
+        alt: "A woman carrying a stack of lidded boxes away from a pile of bags, cartons and loose items gathered on a bare floor.",
+        caption: "Deciding what is going before you ask for a quote is what makes the quote accurate.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "which-channel",
+        text: "Which channel to book through",
+      },
+      {
+        type: "paragraph",
+        text: "WhatsApp is the fastest route in this market, because it carries photos and leaves a written record in the same thread. A phone call works better when the job is complicated enough to need a conversation — an inherited flat, a mixed load, an access problem that is hard to photograph. A web form sits between the two: fine for a straightforward job, slower when it triggers a call-back to ask what a photo would have answered.",
+      },
+      {
+        type: "paragraph",
+        text: "Whichever you start with, finish in writing. A collection agreed entirely by voice is the one most likely to be remembered differently by each side.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "building-access",
+        text: "Where building access fits into the sequence",
+      },
+      {
+        type: "paragraph",
+        text: "Access is a booking step, not a formality on the day. In most Dubai towers a collection needs the service lift reserved and the company's details passed to building management in advance, and that office keeps its own hours — which are not the same as yours or the crew's.",
+      },
+      {
+        type: "paragraph",
+        text: "Start it as soon as you have a provisional date, before you confirm anything. If management asks for paperwork from the company, a trade licence copy and an insurance certificate are the usual requests, and both sides need time: the company to send them, you to hear back. In a villa community the equivalent step is registering the vehicle at the gate, which is quicker but still needs doing before a truck is sitting at the barrier.",
+      },
+      {
+        type: "paragraph",
+        text: "The rule of thumb is simple. Whoever controls the door should know before the crew is on the road.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "confirmed-booking",
+        text: "What a confirmed booking actually looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A booking is confirmed when both sides hold the same five details. If any of them is still vague, the booking is a conversation rather than an appointment.",
+      },
+      {
+        type: "list",
+        items: [
+          "The date, with an arrival window rather than a single exact minute.",
+          "The address, the floor, and which entrance the crew should use.",
+          "What is being taken, described specifically enough that nothing is a surprise.",
+          "The price, and what would change it.",
+          "How payment is made, and to whom.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "booking-for-someone-else",
+        text: "Booking on someone else's behalf",
+      },
+      {
+        type: "paragraph",
+        text: "Plenty of collections are arranged by someone who will not be in the property — a landlord clearing after a tenant, a family member handling a relative's move, a resident who has already left the country. That works, on two conditions.",
+      },
+      {
+        type: "paragraph",
+        text: "The first is that somebody with access has to be there, or the keys have to sit with someone who is: a concierge, a housekeeper, a neighbour, an agent. The second is that whoever is on site needs to know what stays. A person letting a crew in without instructions cannot answer the one question that matters when the crew reaches an item nobody mentioned.",
+      },
+      {
+        type: "paragraph",
+        text: "Send the same photos you would send if you were there, and put the on-site contact's number in the booking message instead of your own. The crew will call the number they were given, and it should be the number that can open a door.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "on-the-day",
+        text: "What happens on the day",
+      },
+      {
+        type: "paragraph",
+        text: "The crew calls on arrival, walks the job with you, checks that the pile matches what was quoted, protects the route if it runs through a lift lobby or a shared corridor, and then loads. On a normal residential job the loading itself is the shortest part of the visit.",
+      },
+      {
+        type: "paragraph",
+        text: "Your part is short too. Point at what is going, say clearly what is staying, and stay contactable until the truck leaves. A cabinet that was meant to stay and left on the truck is the mistake that is hardest to undo.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/crew-carrying-boxes-out-of-room.webp",
+        alt: "Two workers in dark overalls carrying stacked cardboard boxes out of an empty room with tall arched windows.",
+        caption: "The walk-through at the start of the visit is where any gap between quote and reality gets caught.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "why-bookings-slip",
+        text: "Why bookings slip, and how to stop yours",
+      },
+      {
+        type: "paragraph",
+        text: "Nearly every delayed collection traces back to a short list of causes, and all of them are avoidable at the booking stage rather than on the day.",
+      },
+      {
+        type: "list",
+        items: [
+          "The service lift was never reserved, so the crew waits in the lobby or leaves.",
+          "The job was described from memory instead of photos, and the vehicle sent is too small.",
+          "Nobody answered when the crew called from the gate.",
+          "Items needing separate disposal only came to light once loading had started.",
+          "Building approval came through, but for a different day than the one booked.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "booking-cleanly",
+        text: "Booking it without the back-and-forth",
+      },
+      {
+        type: "paragraph",
+        text: "The sequence works when you front-load it. Photograph the job before you write anything, mention the floor and the lift in the first message, start building approval the moment you have a provisional date, and keep the confirmation in writing. Handled that way, a collection is a short visit you barely have to manage. Handled backwards, the same job turns into a week of rescheduling around a lift you could have booked on day one.",
+      },
+    ],
+    faq: [
+      {
+        q: "Can I book a collection without knowing exactly what I'm throwing out?",
+        a: "Yes. Send photos of the space rather than a written list, and say which items you are still undecided about. A company that works here regularly can estimate the volume from a picture, and the quote is confirmed against what is actually there when the crew walks the job.",
+      },
+      {
+        q: "Is a WhatsApp message enough to count as a confirmed booking?",
+        a: "It is, as long as the message states the date, the arrival window, the address and the agreed price. What matters is that both sides hold the same written details, not which app they were sent through.",
+      },
+      {
+        q: "What does building management usually ask for before approving a collection?",
+        a: "Typically the company's name, the date and time of the visit, and often copies of its trade licence and insurance. Ask what is required early — the documents take minutes to send, but the approval itself can take a day to come back.",
+      },
+      {
+        q: "Can I change the collection date after it's been confirmed?",
+        a: "Usually yes, provided you give notice rather than calling on the morning. In a tower the complication is that the lift reservation is tied to the original date, so a change generally means arranging building access a second time.",
+      },
+      {
+        q: "Do I need to be the one who books it if I'm not the tenant?",
+        a: "No — landlords, agents and family members arrange collections routinely. Whoever books it should give the on-site contact's number rather than their own, because that is the number the crew will call on arrival.",
+      },
+    ],
+  },
+  {
+    slug: "storage-unit-clean-out-dubai",
+    title: "Storage Unit Clean Out in Dubai: Emptying a Rented Unit",
+    excerpt:
+      "A storage unit is the one space you pay for monthly and rarely open. Here's how a clear-out actually runs — facility access rules, what tends to be inside, and how to hand the unit back empty.",
+    category: "Guides",
+    publishedAt: "2026-07-22",
+    readingTimeMinutes: 7,
+    tags: ["Storage", "Clearance", "Access", "Dubai"],
+    keywords: [
+      "storage unit clean out dubai",
+      "storage unit clearance dubai",
+      "empty storage unit dubai",
+      "self storage clear out dubai",
+      "storage room junk removal dubai",
+    ],
+    metaTitle: "Storage Unit Clean Out Dubai: Emptying a Rented Unit",
+    metaDescription:
+      "How a storage unit clear-out works in Dubai — the facility's access rules, what is usually inside after two years, and the steps that actually end the rental.",
+    image: {
+      src: "/images/blog/storage-unit-door-padlock-numbered.webp",
+      alt: "A red roller shutter door of a self-storage unit secured with a brass padlock, next to a numbered unit sign reading 0004.",
+    },
+    relatedSlugs: [
+      "full-house-junk-removal-dubai",
+      "garage-clean-out-dubai",
+      "bulky-waste-collection-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Clearing a storage unit differs from clearing a room at home in one respect that shapes everything else: the space belongs to a facility with its own hours, its own access rules and other tenants using the same corridor and the same lift. The contents are usually the easy part. This guide covers how a rented unit gets emptied in Dubai — what the facility will want to know beforehand, what tends to be inside after a year or two, and how to hand the unit back so the rental genuinely ends.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "when-to-clear",
+        text: "When a storage unit is worth clearing",
+      },
+      {
+        type: "paragraph",
+        text: "The moment to act on is when the monthly rent starts to outweigh what the contents are worth to you. It arrives quietly, because the payment is automatic and the unit is out of sight.",
+      },
+      {
+        type: "list",
+        items: [
+          "A move where the overflow went into storage temporarily and stayed there.",
+          "Leaving the UAE, where the unit has to be emptied before the rental can be closed.",
+          "Downsizing from a villa to an apartment, where storage was the plan and the plan did not hold.",
+          "A unit taken over from a relative or a departing flatmate, with contents nobody can identify.",
+          "A small business unit holding old stock, files and display fittings that no longer earn their space.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "In all of them the honest calculation is the same one: what would you pay today to own the contents, and how many months of rent have already gone past that figure?",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "facility-rules",
+        text: "The facility sets the rules, not you",
+      },
+      {
+        type: "paragraph",
+        text: "This is the part that catches people out, because a storage unit feels like your own space and behaves like someone else's. Before a collection crew can work, the facility usually needs to know they are coming.",
+      },
+      {
+        type: "list",
+        items: [
+          "Access hours — many facilities close well before the evening, and a clear-out that starts late gets cut short mid-job.",
+          "Visitor registration for the crew, sometimes with identification held at reception.",
+          "A goods lift or loading bay shared with every other tenant, which may need its own slot.",
+          "Trolleys that belong to the facility and are shared, so there can be a wait at a busy hour.",
+          "A rule against leaving anything in the corridor, even briefly while you sort.",
+          "Vehicle access that stops at a bay rather than at your unit door, so everything is carried or wheeled the last stretch.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Call the facility before you book the collection rather than after. Two questions matter most: how late the crew can still be working, and where the vehicle is allowed to stand.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/storage-facility-corridor-hand-truck.webp",
+        alt: "A wide concrete corridor running between two rows of grey metal storage units, with a single blue hand truck standing in the middle.",
+        caption: "The distance between the unit door and the point a vehicle can reach is what sets the pace of the job.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "whats-inside",
+        text: "What is usually inside after a year or two",
+      },
+      {
+        type: "paragraph",
+        text: "Storage contents follow a pattern, because a unit tends to receive whatever was too hard to decide about at the time.",
+      },
+      {
+        type: "list",
+        items: [
+          "Boxes packed during a move and never opened since, often unlabelled.",
+          "Furniture from a larger home — a dining set, a spare bed, a wardrobe that did not fit the next flat.",
+          "Appliances kept as spares: a second fridge, a washing machine, a television replaced two years ago.",
+          "Seasonal and sports equipment, from bikes and camping gear to suitcases and decorations.",
+          "Documents and files, which need a decision of their own before anything is loaded.",
+          "Mattresses, rugs and cushions, which often survive storage less well than their owners expect.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Open a few of the sealed boxes before the collection day. Two years of not needing something is strong evidence, but paperwork, chargers and small valuables have a habit of being packed in the same carton as things you would happily lose.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/stacked-storage-boxes-unopened.webp",
+        alt: "A tall stack of lidded cardboard storage boxes beside a cloth-covered bench, seen through a part-open white door.",
+        caption: "Unlabelled boxes are the slowest part of any storage clear-out — open them before the day, not during it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "sorting-on-site",
+        text: "Sorting on site is harder than sorting at home",
+      },
+      {
+        type: "paragraph",
+        text: "At home you can empty a room into a hallway and decide at your own pace. In a storage facility you cannot. The corridor is shared, the unit is full to the door, and there is nowhere to put a pile you are still thinking about.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical answer is to decide in advance. Go once on your own, open the boxes, photograph or mark what is staying, and physically move it to one side of the unit. When the crew arrives, everything on the other side goes, and nobody is standing in a corridor holding a carton waiting for an answer.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "handing-back",
+        text: "Handing the unit back properly",
+      },
+      {
+        type: "paragraph",
+        text: "A unit is not closed simply because it is empty. Ending the rental cleanly takes a few extra steps, and each one is easy to skip on a day that already felt finished.",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Check the notice period in your rental agreement before you book the collection — many run to a full month.",
+          "Empty the unit completely, including anything stored on top of the racking or behind the door.",
+          "Sweep it out; facilities generally expect the unit back in the condition it was handed over.",
+          "Remove your own padlock and take it with you.",
+          "Tell reception the unit is vacated, and get that acknowledged in writing.",
+          "Cancel any standing payment yourself instead of assuming it stops on its own.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Resist the urge to leave usable items outside the unit for another tenant to take. It feels generous and lands as the facility's problem, and it is the quickest way to be charged for a clearance you thought you had already done.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-drives-cost",
+        text: "What drives the cost of a storage clear-out",
+      },
+      {
+        type: "paragraph",
+        text: "Three things, as with any collection: how much space the load takes on the vehicle, what the items are, and how far they travel between the unit door and the truck. The third is where a storage unit differs from a home.",
+      },
+      {
+        type: "paragraph",
+        text: "A ground-floor unit near a loading bay clears quickly. An upper-floor unit at the end of a corridor, served by one shared goods lift, can take twice as long for exactly the same volume — and time is most of what a quote is made of. Say where the unit sits when you ask for a price, not just how big it is.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "one-visit",
+        text: "Clearing it in one visit",
+      },
+      {
+        type: "paragraph",
+        text: "One visit is realistic for most units, and the difference between one and two is preparation rather than volume. Confirm the facility's hours and its crew registration, do your sorting on an earlier trip, keep the items you are keeping physically separated, and start early enough that a queue for the shared lift does not end the session. A unit that took three years to fill can be emptied, swept and handed back in a morning.",
+      },
+    ],
+    faq: [
+      {
+        q: "Does the storage facility need to know a collection crew is coming?",
+        a: "Almost always. Most facilities register visitors at reception and some hold identification while the crew is on site, so give them the company name and the date in advance. It takes one phone call and prevents a crew being turned away at the entrance.",
+      },
+      {
+        q: "Can a storage unit be cleared if I've already left the UAE?",
+        a: "It can, as long as someone can physically open it. That usually means arranging access through the facility with written authorisation from you, or leaving the key with a person you trust. Agree in advance who signs the unit off as vacated.",
+      },
+      {
+        q: "What limits how quickly a storage unit can be emptied?",
+        a: "The route, not the contents. A shared goods lift, a long corridor and a loading bay some distance from the unit set the pace, which is why a ground-floor unit near the bay clears far faster than an upper-floor unit of the same size.",
+      },
+      {
+        q: "Does the unit have to be swept out before the rental ends?",
+        a: "Most facilities expect it returned in the condition it was taken in, which in practice means empty and brushed clean. Check your agreement — leaving it dirty is a common reason for a final charge arriving after you thought the rental had closed.",
+      },
+      {
+        q: "Is it worth keeping a unit if I only use part of it?",
+        a: "Rarely at the same size. Facilities will normally move you to a smaller unit, and shrinking the space beats paying full rent for a unit that is half air. Clear it first, then decide what the remainder genuinely needs.",
+      },
+    ],
+  },
 ];
 
 // -----------------------------------------------------------------------------
