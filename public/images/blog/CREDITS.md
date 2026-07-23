@@ -72,3 +72,9 @@ Sources documented here for traceability.
 | storage-unit-door-padlock-numbered.webp | https://www.pexels.com/photo/38573375/ |
 | stacked-storage-boxes-unopened.webp | https://www.pexels.com/photo/4568710/ |
 | storage-facility-corridor-hand-truck.webp | https://www.pexels.com/photo/5759147/ |
+| basement-stairwell-level-markings.webp | https://www.pexels.com/photo/30535158/ |
+| portable-work-lamp-dark-basement-room.webp | https://www.pexels.com/photo/18335689/ |
+| carrying-wooden-chair-up-concrete-stairs.webp | https://www.pexels.com/photo/36895523/ |
+| dubai-balcony-table-chairs-sliding-door.webp | https://www.pexels.com/photo/33363140/ |
+| sun-bleached-drying-rack-and-plastic-chair.webp | https://www.pexels.com/photo/19155142/ |
+| stacked-weathered-plastic-outdoor-furniture.webp | https://www.pexels.com/photo/32248312/ |

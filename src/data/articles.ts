@@ -4523,6 +4523,413 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "basement-clearance-dubai",
+    title: "Basement Clearance in Dubai: Clearing the Level Below Ground",
+    excerpt:
+      "A basement is the one space in a home with no driveway and no window — everything in it has to come up. Here's how a below-ground clear-out runs, and what decides how long it takes.",
+    category: "Guides",
+    publishedAt: "2026-07-23",
+    readingTimeMinutes: 7,
+    tags: ["Basement", "Clearance", "Access", "Dubai"],
+    keywords: [
+      "basement clearance dubai",
+      "basement clear out dubai",
+      "basement junk removal dubai",
+      "lower ground floor clearance dubai",
+      "basement storage room clearance dubai",
+    ],
+    metaTitle: "Basement Clearance Dubai: How a Below-Ground Clear-Out Works",
+    metaDescription:
+      "How a basement clearance works in Dubai — which spaces the word covers here, why the route out matters more than the volume, and how to clear the level in one visit.",
+    image: {
+      src: "/images/blog/basement-stairwell-level-markings.webp",
+      alt: "A concrete stairwell in an underground level of a building, with large painted level markings reading minus one and minus two beside the steps.",
+    },
+    relatedSlugs: [
+      "storage-unit-clean-out-dubai",
+      "garage-clean-out-dubai",
+      "junk-removal-truck-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "A basement clear-out is decided by one thing more than any other: everything in the room has to travel upwards to leave it. There is no driveway to open onto and no window to pass anything through. This guide covers what a basement clearance in Dubai actually involves — which spaces the word covers here, what the route out does to the length of the job, and how to get the level emptied in a single visit.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-counts",
+        text: "What a basement usually means in Dubai",
+      },
+      {
+        type: "paragraph",
+        text: "Most homes in Dubai are built without a basement, so the word covers a narrower set of spaces here than it does in Europe or North America. Three of them come up repeatedly.",
+      },
+      {
+        type: "list",
+        items: [
+          "A lower-ground level in a larger villa, built as a storeroom, a gym, a plant room or staff accommodation.",
+          "A storage room allocated to an apartment, sitting on one of the building's basement parking levels rather than inside the flat.",
+          "A below-ground service level in a smaller residential building, shared between units and holding whatever nobody wanted upstairs.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The practical difference between them is who controls the door. A villa lower ground is yours to open; a store on a parking level sits inside space the building manages, so the crew has to be let in and told where the vehicle can stand.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "route-out",
+        text: "Everything has to come up",
+      },
+      {
+        type: "paragraph",
+        text: "This is the fact that shapes the whole job. A basement has no vehicle access to its door, so every item is carried or wheeled up at least one flight before it reaches anything with wheels. The route matters more than the volume.",
+      },
+      {
+        type: "list",
+        items: [
+          "Many villa lower grounds are reached by one internal staircase, usually with a turn at the landing that sets the largest thing able to come up in one piece.",
+          "Where a lift serves the level at all, it tends to stop at the parking floor rather than at the store, leaving a stretch of car park to cross.",
+          "Car park entrances are commonly fitted with a height barrier, which decides the size of vehicle that gets underneath — a smaller van in, or a longer carry out to street level.",
+          "Weight is lifted against gravity rather than lowered with it, so a wardrobe or a treadmill needs more hands going up than it did coming down.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The last point is the one worth planning around. The question to answer before booking is not how much is down there. It is how many turns, steps and doorways sit between the far corner of the room and the back of the vehicle.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/carrying-wooden-chair-up-concrete-stairs.webp",
+        alt: "A man in a black T-shirt carrying a wooden chair upside down across a concrete landing beside a flight of steps.",
+        caption: "Everything leaves a basement the hard way — upwards, and almost always by hand.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "light-and-air",
+        text: "No daylight, and very little moving air",
+      },
+      {
+        type: "paragraph",
+        text: "A below-ground room has no natural light and, in most cases, no real ventilation. It is usually cooler than the rest of the property, which is part of why things end up there, but the air sits still and holds moisture. That combination is what quietly ruins stored belongings.",
+      },
+      {
+        type: "paragraph",
+        text: "The consequences show up before the job starts. One ceiling fitting is rarely enough to judge the condition of anything, so photographs taken for a quote come out dark and unhelpful unless you use a flash. Phone signal is often poor below ground too, so agree arrival details before anyone goes down rather than expecting to coordinate from inside.",
+      },
+      {
+        type: "list",
+        items: [
+          "Bring a portable lamp or work light instead of relying on the fitting that is there.",
+          "Prop the door at the top of the stairs open to get some air moving through.",
+          "Photograph everything with a flash when you request the quote, not on the morning of the collection.",
+          "Expect cardboard to have gone soft. A sealed box that has stood on a below-ground floor for a year often will not survive being picked up by its base.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/portable-work-lamp-dark-basement-room.webp",
+        alt: "A yellow portable work lamp on a tripod lighting a bare blockwork wall in an otherwise dark, empty room.",
+        caption: "One dim ceiling light is rarely enough to sort by, which is why most basement jobs start by bringing light in.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "whats-stored",
+        text: "What tends to be down there",
+      },
+      {
+        type: "paragraph",
+        text: "Basement contents follow the logic of the space — heavy, bulky and out of mind.",
+      },
+      {
+        type: "list",
+        items: [
+          "Furniture from a previous home, too good to throw away and too big for the rooms upstairs.",
+          "Exercise equipment: a treadmill, a weight bench, an exercise bike nobody has sat on in two years.",
+          "Suitcases, travel cots and the original boxes for appliances, kept in case of a move.",
+          "Files, folders and old paperwork, which need a decision of their own before anything is loaded.",
+          "Spare white goods, and often the air-conditioning unit that was replaced rather than removed.",
+          "Paint, tiles and offcuts left behind by whoever carried out the last fit-out.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Two of those are worth flagging at booking rather than on the day: leftover paint and solvents, and anything holding refrigerant or a battery. They follow their own disposal routes instead of riding in a mixed household load, and that is far easier to arrange in advance than in a stairwell.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "how-it-runs",
+        text: "How a basement clearance actually runs",
+      },
+      {
+        type: "paragraph",
+        text: "Order matters more here than in a room at ground level, because a stairway can only be used in one direction at a time.",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Go down once on your own with a lamp and decide what is staying, then move it to one side of the room.",
+          "Measure the tightest point on the route out — stair width, the turn at the landing, the doorway at the top. That measurement decides what has to be dismantled, not the item itself.",
+          "Clear the stairway before anything else, so nothing is being stepped over while people are carrying.",
+          "Work in relays: from the room to the foot of the stairs, up to ground level, then straight onto the vehicle.",
+          "Load as you go rather than building a pile outside. A stack of furniture standing in a shared car park is in somebody's way within minutes.",
+          "Sweep the room at the end, while it is empty and you can still see the floor.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "what-drives-cost",
+        text: "What drives the cost of a basement clear-out",
+      },
+      {
+        type: "paragraph",
+        text: "The same three things as any collection: how much space the load takes on the vehicle, what the items are, and how hard they are to reach. In a basement the third carries more weight than it does anywhere else in a property.",
+      },
+      {
+        type: "paragraph",
+        text: "A modest room below ground can take longer than a much larger space at street level, because every piece goes up a flight before it goes anywhere at all — and that is time and hands rather than volume. So describe the route as carefully as the contents when you ask for a price: how many flights, whether a lift reaches the level, and where a vehicle is allowed to stand. A quote given without those details tends to change on the day.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "one-visit",
+        text: "Getting it done in one visit",
+      },
+      {
+        type: "paragraph",
+        text: "One visit is realistic for most basements, and preparation decides it. Sort on an earlier trip so nothing is being debated at the foot of the stairs, take apart whatever the landing turn will not accept, and start early enough that the carrying is finished before everyone is tired — going up is the part of the job that slows down first. A level that took five years to fill comes out in a morning when the route is clear before the crew arrives.",
+      },
+    ],
+    faq: [
+      {
+        q: "Do homes in Dubai commonly have basements?",
+        a: "Most do not — apartments and standard villas here are usually built without one. Where a basement does exist it tends to be a lower-ground level in a larger villa, or a storage room allocated to a flat on a building's parking level.",
+      },
+      {
+        q: "How much difference does a stairs-only route make?",
+        a: "It is normally the single biggest factor in how long the job takes. A volume that clears from a driveway in an hour can take two or three from a below-ground room, because every item is carried up before it reaches the vehicle.",
+      },
+      {
+        q: "What should I measure before booking a basement clearance?",
+        a: "The narrowest point between the room and the outside, which is usually the stair width, the turn at the landing or the doorway at the top. Anything larger than that has to be dismantled below, and knowing it in advance keeps the collection to one visit.",
+      },
+      {
+        q: "Is it better to clear a basement in stages?",
+        a: "Rarely. Every visit repeats the same setup — clearing the stairway, staging at the top, positioning a vehicle — so two half-jobs take more time than one complete one. Stages only make sense when some items genuinely need a different disposal route.",
+      },
+      {
+        q: "What happens to things that have gone damp and musty?",
+        a: "Soft furnishings, mattresses and cardboard that have taken moisture below ground generally cannot be donated or resold, so they are routed for disposal. Separating them from anything still in good condition before the crew arrives keeps the reusable items out of the wrong pile.",
+      },
+    ],
+  },
+  {
+    slug: "balcony-junk-removal-dubai",
+    title: "Balcony Junk Removal in Dubai: Clearing an Outdoor Room",
+    excerpt:
+      "A balcony is the one part of a flat that is both indoors and outdoors, and it fills up quietly. Here's what comes off a Dubai balcony, and why every piece of it leaves through your living room.",
+    category: "Dubai Living",
+    publishedAt: "2026-07-23",
+    readingTimeMinutes: 7,
+    tags: ["Balcony", "Apartment", "Clearance", "Dubai"],
+    keywords: [
+      "balcony junk removal dubai",
+      "balcony clearance dubai",
+      "balcony furniture removal dubai",
+      "clear balcony dubai",
+      "balcony rubbish removal dubai",
+    ],
+    metaTitle: "Balcony Junk Removal Dubai: Clearing an Outdoor Room",
+    metaDescription:
+      "How a balcony clear-out works in Dubai — what accumulates out there, why sun and dust ruin most of it, and why every item has to come back through the flat.",
+    image: {
+      src: "/images/blog/dubai-balcony-table-chairs-sliding-door.webp",
+      alt: "A small table and two chairs on a tiled apartment balcony in Dubai, seen from inside through an open sliding glass door with the city's towers beyond.",
+    },
+    relatedSlugs: [
+      "apartment-junk-removal-dubai",
+      "single-item-junk-removal-dubai",
+      "bulky-waste-collection-dubai",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "A balcony is the only part of an apartment that is both indoors and outdoors, and it is the part that fills up without anyone deciding to fill it. Whatever has no home inside ends up out there, and the sun and the dust get to work on it. This guide covers how a balcony clear-out in Dubai runs — what usually comes off one, why so little of it is worth keeping, and the rule that decides how all of it leaves the building.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "whats-out-there",
+        text: "What ends up on a Dubai balcony",
+      },
+      {
+        type: "paragraph",
+        text: "Balconies collect a fairly predictable set of things, because they are the overflow space for a flat that has run out of cupboards.",
+      },
+      {
+        type: "list",
+        items: [
+          "Outdoor furniture — plastic chairs, a folding table, a rattan set bought during a first cool season here.",
+          "A clothes drying rack, usually the item that has been out there longest.",
+          "Plant pots, opened bags of soil and plants that did not survive a July.",
+          "Bicycles, scooters and sports gear kept out of the hallway.",
+          "Suitcases, storage boxes and anything that did not fit in the flat's one store cupboard.",
+          "A barbecue and its gas cylinder, untouched since the last cool month.",
+          "Cushions, mats and artificial grass that has curled up at the edges.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/blog/sun-bleached-drying-rack-and-plastic-chair.webp",
+        alt: "A white folding plastic clothes-drying rack and a white plastic chair standing against a sunlit white wall, casting hard shadows.",
+        caption: "The drying rack and the plastic chair are the two items almost every balcony clear-out includes.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "condition",
+        text: "Why most of it is past saving",
+      },
+      {
+        type: "paragraph",
+        text: "A few summers on a balcony here does more damage than years of use indoors. Direct sun, heat and the fine dust that settles on every surface work on materials in ways that stay invisible until something is picked up and flexes in the wrong place.",
+      },
+      {
+        type: "list",
+        items: [
+          "Plastic goes chalky, loses its colour and cracks at the joints and leg welds, often while it is being carried.",
+          "Cushions and fabric fade, stiffen and hold dust deep in the foam.",
+          "Rattan and cane dry out and split, and the weave lifts away from the frame.",
+          "Timber greys and its screws work loose as the wood shrinks.",
+          "Metal frames rust at the fixings first, particularly nearer the coast where the air carries salt.",
+          "Soil compacts in its pots into a solid block that is far heavier than it looks.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This is why selling balcony furniture usually goes nowhere. A buyer sees the same chalky plastic and rusted bolt heads you do, and photographs taken in strong sun flatter it more than the collection does. If something genuinely still works — a bicycle, a barbecue, an unopened parasol — sell or pass that on, and have the rest collected.",
+      },
+      {
+        type: "image",
+        src: "/images/blog/stacked-weathered-plastic-outdoor-furniture.webp",
+        alt: "Stacks of sun-bleached white plastic sun loungers, discoloured and stained, photographed close up in bright light.",
+        caption: "Plastic outdoor furniture rarely fails suddenly. It just stops being worth keeping.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "exit-route",
+        text: "Everything leaves through your living room",
+      },
+      {
+        type: "paragraph",
+        text: "A balcony has exactly one exit, and it is the door you use. Every item comes back through the flat, across the floor, out of the front door and into the lift. That single fact shapes how the collection is done.",
+      },
+      {
+        type: "paragraph",
+        text: "Nothing goes over the railing. Lowering or dropping anything from a balcony is dangerous at any height, buildings do not permit it, and no legitimate crew will offer it. It is worth stating plainly, because it is the first idea most people have when they look at a wardrobe-sized item and a narrow door.",
+      },
+      {
+        type: "list",
+        items: [
+          "Everything out there is coated in dust, so it is bagged, wrapped or wiped before it crosses an indoor floor.",
+          "Balcony doors are often narrower than the front door, and the threshold rail underneath adds a lift on the way through.",
+          "Anything assembled outside — a large sofa set, a fixed planter, a big barbecue — may not come back through in one piece, and gets taken apart where it stands.",
+          "In a tower the route ends at a service lift, which the building may want reserved in advance. Confirm that when you book rather than on the morning.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "separate-items",
+        text: "The few things that need their own arrangement",
+      },
+      {
+        type: "paragraph",
+        text: "A small number of balcony items do not travel in a general household load: a barbecue gas cylinder, an air-conditioning condenser if an old one was replaced and left in place, and anything with a battery still fitted. None of it stops the collection. Mention them when you describe the job and they are planned for, which is easier than sorting it out in a hallway.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "management-notice",
+        text: "If building management has asked you to clear it",
+      },
+      {
+        type: "paragraph",
+        text: "Many buildings restrict what residents may keep on a balcony, particularly anything visible from outside or light enough to move in strong wind. A written request to clear one is a common reason people book a collection, and the useful first step is finding out exactly what has been objected to.",
+      },
+      {
+        type: "paragraph",
+        text: "Wind is usually the real reason behind the request. High up, an empty plant pot, a folding chair or a loose stack of cushions is a genuine hazard on a gusty afternoon, and the rules tend to be firmer the taller the tower. Ask which items have to go and by when — the answer is the difference between a single bulky-item pickup and a full balcony clear-out.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "cost",
+        text: "What shapes the price",
+      },
+      {
+        type: "paragraph",
+        text: "The usual three factors apply: how much space the load takes on the vehicle, what the items are, and how far they travel to reach it. Two things are specific to balconies.",
+      },
+      {
+        type: "paragraph",
+        text: "The first is weight without volume. Pots full of compacted soil occupy very little space and are heavy, so the number of pots is worth stating when you ask for a price. The second is the route out: a high floor served by one service lift adds time to a job that might take fifteen minutes on the balcony itself. Any figure quoted before those two things are known is a guess rather than a price.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        id: "one-visit",
+        text: "Clearing it in one go",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Decide what is staying and move it to one end of the balcony, so nothing needs discussing on the day.",
+          "Tip the soil from any pots you are keeping into bags; pots that are going can travel as they are.",
+          "Check the balcony door width against the largest item and take apart anything that will not pass.",
+          "Bag the small, loose things — cushions, mats, tools — so they cross the floor in one trip rather than twenty.",
+          "Confirm with the building whether the service lift needs reserving for the collection.",
+          "Wash the tiles once it is empty. Dust that has sat under a chair for two years lifts as a paste rather than a sweep.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A balcony is usually a small job with an awkward middle. The contents rarely amount to much — a chair set, a rack, a few pots and a bicycle — but all of it is dusty, some of it is heavier than it looks, and every piece has to cross the living room floor on its way out. Sort it beforehand, dismantle what the door will not take, and it is done before the room needs cleaning.",
+      },
+    ],
+    faq: [
+      {
+        q: "Can items be lowered from a balcony instead of carried through the flat?",
+        a: "No. Lowering or dropping anything from a balcony is unsafe at any height and buildings do not allow it, so everything comes back in through the balcony door and out through the flat. Pieces too large for the door are dismantled on the balcony instead.",
+      },
+      {
+        q: "Will plant pots be taken with the soil still in them?",
+        a: "Yes, though soil is heavy for the space it takes up, so it helps to say how many pots there are when you ask for a price. If you are keeping the pots themselves, emptying them into bags beforehand makes the collection quicker.",
+      },
+      {
+        q: "My balcony furniture still works — is it worth selling?",
+        a: "Sometimes, but less often than people expect. Sun and dust leave outdoor furniture looking its age and buyers price it accordingly. A bicycle or a barbecue is usually worth listing; a four-year-old plastic chair set usually is not.",
+      },
+      {
+        q: "Does a balcony clear-out include artificial grass and floor mats?",
+        a: "Yes — decking tiles, artificial grass and outdoor mats all lift and go with the load. Pulling them up the day before is worth doing if you can, because the dust trapped underneath is easier to deal with before a crew is standing on it.",
+      },
+      {
+        q: "What takes the longest in a balcony clear-out?",
+        a: "The route out, not the balcony. Loading is often under half an hour, and the rest of the time goes on carrying everything through the flat and waiting for a lift shared with the whole building — which is why a ground-floor flat finishes far sooner than a thirtieth-floor apartment.",
+      },
+    ],
+  },
 ];
 
 // -----------------------------------------------------------------------------
