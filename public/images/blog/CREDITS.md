@@ -78,3 +78,9 @@ Sources documented here for traceability.
 | dubai-balcony-table-chairs-sliding-door.webp | https://www.pexels.com/photo/33363140/ |
 | sun-bleached-drying-rack-and-plastic-chair.webp | https://www.pexels.com/photo/19155142/ |
 | stacked-weathered-plastic-outdoor-furniture.webp | https://www.pexels.com/photo/32248312/ |
+| empty-wardrobe-hangers-vacated-room.webp | https://www.pexels.com/photo/18725622/ |
+| packing-clothes-into-box-to-forward.webp | https://www.pexels.com/photo/6591155/ |
+| narrow-fitted-hallway-to-front-door.webp | https://www.pexels.com/photo/6436756/ |
+| empty-rental-unit-between-tenants-dubai.webp | https://www.pexels.com/photo/33197279/ |
+| opened-cardboard-boxes-empty-unit-floor.webp | https://www.pexels.com/photo/7203775/ |
+| checking-invoice-pages-on-desk.webp | https://www.pexels.com/photo/8872719/ |
